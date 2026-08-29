@@ -1,0 +1,68 @@
+about:
+  description: A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
+  license: NOASSERTION
+  homepage: https://curl.se/
+  head: c2a04c0
+  archived: false
+  latestVersion: curl-8_21_0
+  collectedAt: 2026-08-29T06:59:24Z
+timeline:
+  created: 2010-03-18
+  lastCommit: 2026-08-28
+  lastRelease: 2026-06-24
+popularity:
+  star: 42708
+  watcher: 769
+  fork: 7331
+  release: 97
+  contributor: 1241
+  pullRequest: 15786
+  issue: 5559
+language:
+  C: 8677038
+  Perl: 909555
+  Python: 658534
+  M4: 502721
+  CMake: 308112
+  DIGITAL Command Language: 235644
+  Shell: 148621
+  Makefile: 106469
+  Batchfile: 12588
+  Roff: 5003
+  Dockerfile: 1712
+  C++: 1579
+  Emacs Lisp: 1348
+totalLine: 11568924
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 0
+    mergedPR: 2
+    openPR: 18
+    closedIssue: 22
+    openIssue: 5
+    commit: 211
+  last90d:
+    since: 2026-05-31
+    release: 1
+    mergedPR: 4
+    openPR: 29
+    closedIssue: 88
+    openIssue: 6
+    commit: 714
+  last180d:
+    since: 2026-03-02
+    release: 3
+    mergedPR: 9
+    openPR: 34
+    closedIssue: 179
+    openIssue: 7
+    commit: 1554
+  last360d:
+    since: 2025-09-03
+    release: 6
+    mergedPR: 13
+    openPR: 35
+    closedIssue: 387
+    openIssue: 7
+    commit: 3503
