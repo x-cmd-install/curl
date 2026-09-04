@@ -7,7 +7,7 @@ about:
   head: 00271cf
   archived: false
   latestVersion: curl-8_22_0
-  collectedAt: 2026-09-04T19:26:40Z
+  collectedAt: 2026-09-04T21:05:47Z
 timeline:
   created: 2010-03-18
   lastCommit: 2026-09-04
@@ -92,6 +92,119 @@ total:
   openIssue: 6
   commit: 39652
 ---
+path: /home/runner/.x-repo/github.com/curl/curl
+collectedAt: 2026-09-04T21:05:59Z
+loc:
+  C:
+    code: 192065
+    comments: 42176
+    blanks: 29025
+    files: 769
+  Perl:
+    code: 19154
+    comments: 4762
+    blanks: 2753
+    files: 68
+  CHeader:
+    code: 15887
+    comments: 11578
+    blanks: 3733
+    files: 257
+  Python:
+    code: 12485
+    comments: 1991
+    blanks: 1545
+    files: 52
+  M4:
+    code: 8154
+    comments: 2507
+    blanks: 1072
+    files: 22
+  CMake:
+    code: 6021
+    comments: 1769
+    blanks: 682
+    files: 48
+  VisualStudioProject:
+    code: 4371
+    comments: 0
+    blanks: 0
+    files: 2
+  Autoconf:
+    code: 4054
+    comments: 375
+    blanks: 296
+    files: 8
+  Automake:
+    code: 3269
+    comments: 644
+    blanks: 305
+    files: 22
+  Sh:
+    code: 2359
+    comments: 1051
+    blanks: 495
+    files: 26
+  Bitbake:
+    code: 1988
+    comments: 339
+    blanks: 58
+    files: 13
+  VisualStudioSolution:
+    code: 569
+    comments: 0
+    blanks: 0
+    files: 3
+  Batch:
+    code: 343
+    comments: 0
+    blanks: 48
+    files: 2
+  Cpp:
+    code: 196
+    comments: 97
+    blanks: 49
+    files: 2
+  ModuleDef:
+    code: 101
+    comments: 0
+    blanks: 0
+    files: 1
+  Json:
+    code: 97
+    comments: 0
+    blanks: 0
+    files: 1
+  Yaml:
+    code: 94
+    comments: 38
+    blanks: 25
+    files: 1
+  Toml:
+    code: 30
+    comments: 8
+    blanks: 3
+    files: 1
+  Dockerfile:
+    code: 10
+    comments: 24
+    blanks: 7
+    files: 1
+  Markdown:
+    code: 0
+    comments: 61651
+    blanks: 21578
+    files: 928
+  Text:
+    code: 0
+    comments: 697
+    blanks: 162
+    files: 13
+total:
+  code: 271500
+  comments: 129719
+  blanks: 61845
+  files: 2240
 ---
 date: "2022-11-09"
 repo:
