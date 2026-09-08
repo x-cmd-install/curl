@@ -5,7 +5,7 @@ about:
   head: 81787b0
   archived: false
   latestVersion: "curl-8_22_0"
-  collectedAt: 2026-09-08T02:18:43Z
+  collectedAt: 2026-09-08T05:08:19Z
 timeline:
   created: 2010-03-18
   lastCommit: 2026-09-07
@@ -13,7 +13,7 @@ timeline:
 popularity:
   star: 42810
   watcher: 774
-  fork: 7348
+  fork: 7349
   release: 98
   contributor: 1248
   pullRequest: 16117
@@ -91,7 +91,7 @@ total:
   commit: 39674
 ---
 path: /home/runner/.x-repo/github.com/curl/curl
-collectedAt: 2026-09-08T02:19:09Z
+collectedAt: 2026-09-08T05:08:48Z
 loc:
   C:
     code: 192343
