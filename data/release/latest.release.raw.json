@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3403128,
       "digest": "sha256:5d956a6a22b3c279f50c421ee5d3c9e9d660cb6f115dcf881b579e952130549c",
-      "download_count": 290,
+      "download_count": 326,
       "created_at": "2026-09-02T05:55:49Z",
       "updated_at": "2026-09-02T05:55:50Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:08a0d45da3079d88e7606c0f8d88a88f88e46b0c434d6742f2450b32f909363a",
-      "download_count": 44,
+      "download_count": 46,
       "created_at": "2026-09-02T05:55:46Z",
       "updated_at": "2026-09-02T05:55:47Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 4408679,
       "digest": "sha256:d54dd598bf05927a726deb38df31c6a255ba83ff1de57c5d1464dac3ed8f44a1",
-      "download_count": 1407,
+      "download_count": 1575,
       "created_at": "2026-09-02T05:55:49Z",
       "updated_at": "2026-09-02T05:55:49Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:fcd906e7d7a370e5079206b365b229fffc54b8fe311f60179ff7412e2cf77d5c",
-      "download_count": 27,
+      "download_count": 31,
       "created_at": "2026-09-02T05:55:46Z",
       "updated_at": "2026-09-02T05:55:46Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz.asc"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 2953092,
       "digest": "sha256:f7ef3ae8a22e521f289803fe93543eb64c329b58aa73a9e224dfd915a2a5f4f7",
-      "download_count": 3084,
+      "download_count": 3640,
       "created_at": "2026-09-02T05:55:48Z",
       "updated_at": "2026-09-02T05:55:49Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:ff9acdd6e48690d037b85337e42320b87aead3414ba83b75e77ec08d2eea908e",
-      "download_count": 76,
+      "download_count": 80,
       "created_at": "2026-09-02T05:55:45Z",
       "updated_at": "2026-09-02T05:55:46Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz.asc"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 7199043,
       "digest": "sha256:f9ec970e52124e494606209e6bc0e985c623b428796641742f60c5b56931aaee",
-      "download_count": 354,
+      "download_count": 403,
       "created_at": "2026-09-02T05:55:47Z",
       "updated_at": "2026-09-02T05:55:48Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:0b10801955f7236ed65faa57d3f6043df211c5c0f554d98de14a53aea32fb18e",
-      "download_count": 22,
+      "download_count": 25,
       "created_at": "2026-09-02T05:55:45Z",
       "updated_at": "2026-09-02T05:55:45Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip.asc"
@@ -330,8 +330,8 @@
   "body": "[release notes](https://curl.se/ch/8.22.0.html)\r\n[release blog](https://daniel.haxx.se/blog/2026/09/02/curl-8-22-0/)\r\n\r\n<img width=\"2000\" height=\"1000\" alt=\"curl-8- 22 0\" src=\"https://github.com/user-attachments/assets/4913293f-0f45-4d0f-b6e4-9e69705bf656\" />\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/curl/curl/releases/381006034/reactions",
-    "total_count": 25,
-    "+1": 11,
+    "total_count": 26,
+    "+1": 12,
     "-1": 0,
     "laugh": 0,
     "hooray": 6,
