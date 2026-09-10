@@ -21,35 +21,47 @@ x install curl
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-10
 - **Assets in release**: 8
-- **Published**: 2026-09-02T05:59:35Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [curl-8.22.0.tar.bz2](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2) | 3.2 MiB | `other` |
+| [curl-8.22.0.tar.bz2.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2.asc) | 488 B | `other` |
+| [curl-8.22.0.tar.gz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz) | 4.2 MiB | `native/unknown` |
+| [curl-8.22.0.tar.gz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz.asc) | 488 B | `other` |
+| [curl-8.22.0.tar.xz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz) | 2.8 MiB | `other` |
+| [curl-8.22.0.tar.xz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz.asc) | 488 B | `other` |
+| [curl-8.22.0.zip](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip) | 6.9 MiB | `other` |
+| [curl-8.22.0.zip.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip.asc) | 488 B | `other` |
 
 ## Popularity
 
-- **Stars**: 42,823 · **Forks**: 7,348 · **Open issues**: 5,571 · **Contributors**: 1,248
+- **Stars**: 42,826 · **Forks**: 7,350 · **Open issues**: 5,571 · **Contributors**: 1,249
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 36 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39698
+- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 41 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39701
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 1 | 21 | 27 | 3 | 241 |
-| 90d | 2026-06-12 | 2 | 4 | 31 | 84 | 4 | 696 |
-| 360d | 2025-09-15 | 6 | 13 | 36 | 393 | 5 | 3537 |
+| 30d | 2026-08-11 | 1 | 1 | 26 | 27 | 3 | 244 |
+| 90d | 2026-06-12 | 2 | 4 | 36 | 84 | 4 | 699 |
+| 360d | 2025-09-15 | 6 | 13 | 41 | 393 | 5 | 3540 |
 
 ## Code size
 
-Total: **271,642** lines of code across **1174** files in the top 5 languages.
+Total: **271,750** lines of code across **1176** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 192,365 | 42,317 | 29,067 | 774 |
+| C | 192,469 | 42,390 | 29,090 | 776 |
 | Perl | 19,206 | 4,786 | 2,763 | 69 |
-| CHeader | 15,897 | 11,579 | 3,733 | 257 |
+| CHeader | 15,898 | 11,579 | 3,734 | 257 |
 | Python | 12,485 | 1,991 | 1,545 | 52 |
 | M4 | 8,154 | 2,507 | 1,072 | 22 |
 
@@ -68,8 +80,8 @@ Lowest-scoring checks:
 Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `curl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/curl.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/curl.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T05:11:15Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T17:02:08Z._
