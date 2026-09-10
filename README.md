@@ -12,54 +12,13 @@ A command line tool and library for transferring data with URL syntax, supportin
 x install curl
 ```
 
-## Source
+## Code insight
 
-- **Upstream**: <https://github.com/curl/curl>
-- **Homepage**: <https://curl.se/>
-- **License**: NOASSERTION
-
-## Release
-
-- **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-09-10
-- **Assets in release**: 8
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [curl-8.22.0.tar.bz2](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2) | 3.2 MiB | `other` |
-| [curl-8.22.0.tar.bz2.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2.asc) | 488 B | `other` |
-| [curl-8.22.0.tar.gz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz) | 4.2 MiB | `native/unknown` |
-| [curl-8.22.0.tar.gz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz.asc) | 488 B | `other` |
-| [curl-8.22.0.tar.xz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz) | 2.8 MiB | `other` |
-| [curl-8.22.0.tar.xz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz.asc) | 488 B | `other` |
-| [curl-8.22.0.zip](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip) | 6.9 MiB | `other` |
-| [curl-8.22.0.zip.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip.asc) | 488 B | `other` |
-
-## Popularity
-
-- **Stars**: 42,826 · **Forks**: 7,350 · **Open issues**: 5,571 · **Contributors**: 1,249
-
-## Totals (cumulative)
-
-- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 41 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39701
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 1 | 26 | 27 | 3 | 244 |
-| 90d | 2026-06-12 | 2 | 4 | 36 | 84 | 4 | 699 |
-| 360d | 2025-09-15 | 6 | 13 | 41 | 393 | 5 | 3540 |
-
-## Code size
-
-Total: **271,750** lines of code across **1176** files in the top 5 languages.
+Total: **271,772** lines of code across **1176** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 192,469 | 42,390 | 29,090 | 776 |
+| C | 192,491 | 42,390 | 29,088 | 776 |
 | Perl | 19,206 | 4,786 | 2,763 | 69 |
 | CHeader | 15,898 | 11,579 | 3,734 | 257 |
 | Python | 12,485 | 1,991 | 1,545 | 52 |
@@ -75,6 +34,69 @@ Lowest-scoring checks:
 - **CI-Tests** (-1/10) — no pull request found
 - **Code-Review** (0/10) — 0 out of last 30 changesets reviewed before merge -- score normalized to 0
 
+## Source
+
+- **Upstream**: <https://github.com/curl/curl>
+- **Homepage**: <https://curl.se/>
+- **License**: NOASSERTION
+
+## Release
+
+- **Latest**: `curl-8_22_0` (2026-09-02)
+- **Last commit**: 2026-09-10
+- **Assets in release**: 8
+
+## Popularity
+
+- **Stars**: 42,827 · **Forks**: 7,350 · **Open issues**: 5,571 · **Contributors**: 1,250
+
+## Totals (cumulative)
+
+- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 44 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39703
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 1 | 1 | 29 | 27 | 3 | 246 |
+| last60d | 2026-07-12 | 1 | 3 | 35 | 51 | 4 | 442 |
+| 90d | 2026-06-12 | 2 | 4 | 39 | 84 | 4 | 701 |
+| last180d | 2026-03-14 | 3 | 9 | 44 | 186 | 5 | 1554 |
+| 360d | 2025-09-15 | 6 | 13 | 44 | 393 | 5 | 3542 |
+| last720d | 2024-09-20 | 15 | 29 | 44 | 881 | 5 | 6411 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [curl-8.22.0.tar.bz2](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2) | 3.2 MiB | `other` |
+| [curl-8.22.0.tar.bz2.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2.asc) | 488 B | `other` |
+| [curl-8.22.0.tar.gz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz) | 4.2 MiB | `native/unknown` |
+| [curl-8.22.0.tar.gz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz.asc) | 488 B | `other` |
+| [curl-8.22.0.tar.xz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz) | 2.8 MiB | `other` |
+| [curl-8.22.0.tar.xz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz.asc) | 488 B | `other` |
+| [curl-8.22.0.zip](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip) | 6.9 MiB | `other` |
+| [curl-8.22.0.zip.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip.asc) | 488 B | `other` |
+
+## Distribution status
+
+Reported by **886** distros on [repology.org](https://repology.org/project/curl). **152** are ✅ on the latest upstream release, **403** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `8.21.0` | 🪦 legacy |
+| Debian 14 | `8.21.0` | ⚠️ outdated |
+| Debian 13 | `8.14.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `8.18.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `8.5.0` | ⚠️ outdated |
+| Arch | `8.22.0` | ✅ latest |
+| Homebrew | `8.22.0` | ✅ latest |
+| Fedora rawhide | `8.22.0~rc3` | ⚠️ outdated |
+| Nix unstable | `8.21.0` | ⚠️ outdated |
+| Void | `8.22.0` | ✅ latest |
+| Alpine edge | `8.22.0` | ✅ latest |
+| openSUSE Tumbleweed | `8.21.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `curl` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +106,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T17:02:08Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:40:16Z._
