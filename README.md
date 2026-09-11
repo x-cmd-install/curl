@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 42,827 · **Forks**: 7,350 · **Open issues**: 5,571 · **Contributors**: 1,250
+- **Stars**: 42,829 · **Forks**: 7,350 · **Open issues**: 5,571 · **Contributors**: 1,250
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 42 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39706
+- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 44 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39706
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 1 | 1 | 27 | 27 | 3 | 249 |
-| last60d | 2026-07-12 | 1 | 3 | 33 | 51 | 4 | 445 |
-| 90d | 2026-06-12 | 2 | 4 | 37 | 84 | 4 | 704 |
-| last180d | 2026-03-14 | 3 | 9 | 42 | 186 | 5 | 1557 |
-| 360d | 2025-09-15 | 6 | 13 | 42 | 393 | 5 | 3545 |
-| last720d | 2024-09-20 | 15 | 29 | 42 | 881 | 5 | 6414 |
+| 30d | 2026-08-12 | 1 | 1 | 29 | 25 | 3 | 249 |
+| last60d | 2026-07-13 | 1 | 3 | 32 | 50 | 4 | 445 |
+| 90d | 2026-06-13 | 2 | 4 | 39 | 83 | 4 | 704 |
+| last180d | 2026-03-15 | 3 | 9 | 44 | 184 | 5 | 1557 |
+| 360d | 2025-09-16 | 6 | 13 | 44 | 390 | 5 | 3545 |
+| last720d | 2024-09-21 | 15 | 29 | 44 | 881 | 5 | 6393 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **886** distros on [repology.org](https://repology.org/project/curl). **152** are ✅ on the latest upstream release, **403** are ⚠️ on an older version.
+Reported by **887** distros on [repology.org](https://repology.org/project/curl). **153** are ✅ on the latest upstream release, **403** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,7 +90,7 @@ Reported by **886** distros on [repology.org](https://repology.org/project/curl)
 | Ubuntu 26.04 LTS | `8.18.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `8.5.0` | ⚠️ outdated |
 | Arch | `8.22.0` | ✅ latest |
-| Homebrew | `8.22.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `8.22.0~rc3` | ⚠️ outdated |
 | Nix unstable | `8.21.0` | ⚠️ outdated |
 | Void | `8.22.0` | ✅ latest |
@@ -106,4 +106,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:18:24Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:10:13Z._
