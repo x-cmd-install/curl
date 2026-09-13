@@ -14,14 +14,14 @@ x install curl
 
 ## Code insight
 
-Total: **271,721** lines of code across **1176** files in the top 5 languages.
+Total: **270,651** lines of code across **1174** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 192,438 | 42,389 | 29,080 | 776 |
-| Perl | 19,206 | 4,786 | 2,763 | 69 |
-| CHeader | 15,900 | 11,579 | 3,734 | 257 |
-| Python | 12,485 | 1,991 | 1,545 | 52 |
+| C | 191,777 | 42,357 | 28,952 | 776 |
+| Perl | 19,110 | 4,769 | 2,742 | 69 |
+| CHeader | 15,891 | 11,531 | 3,728 | 256 |
+| Python | 12,191 | 1,930 | 1,460 | 51 |
 | M4 | 8,154 | 2,507 | 1,072 | 22 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-13
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 42,829 · **Forks**: 7,350 · **Open issues**: 5,571 · **Contributors**: 1,250
+- **Stars**: 42,841 · **Forks**: 7,354 · **Open issues**: 5,573 · **Contributors**: 1,251
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 44 · **Closed issues**: 5566 · **Open issues**: 5 · **Commits**: 39706
+- **Releases**: 98 · **Merged PRs**: 212 · **Open PRs**: 41 · **Closed issues**: 5566 · **Open issues**: 7 · **Commits**: 39726
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 1 | 1 | 29 | 25 | 3 | 249 |
-| last60d | 2026-07-13 | 1 | 3 | 32 | 50 | 4 | 445 |
-| 90d | 2026-06-13 | 2 | 4 | 39 | 83 | 4 | 704 |
-| last180d | 2026-03-15 | 3 | 9 | 44 | 184 | 5 | 1557 |
-| 360d | 2025-09-16 | 6 | 13 | 44 | 390 | 5 | 3545 |
-| last720d | 2024-09-21 | 15 | 29 | 44 | 881 | 5 | 6393 |
+| 30d | 2026-08-14 | 1 | 1 | 26 | 21 | 5 | 221 |
+| last60d | 2026-07-15 | 1 | 3 | 29 | 45 | 6 | 440 |
+| 90d | 2026-06-15 | 2 | 4 | 36 | 83 | 6 | 629 |
+| last180d | 2026-03-17 | 3 | 9 | 41 | 183 | 7 | 1457 |
+| 360d | 2025-09-18 | 6 | 13 | 41 | 385 | 7 | 3465 |
+| last720d | 2024-09-23 | 15 | 29 | 41 | 879 | 7 | 6387 |
 
 ## Release assets
 
@@ -80,18 +80,18 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **887** distros on [repology.org](https://repology.org/project/curl). **153** are ✅ on the latest upstream release, **403** are ⚠️ on an older version.
+Reported by **886** distros on [repology.org](https://repology.org/project/curl). **156** are ✅ on the latest upstream release, **399** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `8.21.0` | 🪦 legacy |
+| Debian unstable | `8.22.0` | ✅ latest |
 | Debian 14 | `8.21.0` | ⚠️ outdated |
 | Debian 13 | `8.14.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `8.18.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `8.5.0` | ⚠️ outdated |
 | Arch | `8.22.0` | ✅ latest |
 | Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `8.22.0~rc3` | ⚠️ outdated |
+| Fedora rawhide | `8.22.0` | ✅ latest |
 | Nix unstable | `8.21.0` | ⚠️ outdated |
 | Void | `8.22.0` | ✅ latest |
 | Alpine edge | `8.22.0` | ✅ latest |
@@ -106,4 +106,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T05:10:13Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:15:12Z._
