@@ -4,7 +4,7 @@
 
 A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
 
-[![x-cmd/install — curl Code Quality Monitoring Repo Card](https://repo.x-cmd.io/curl.svg?lang=zh)](https://x-cmd.com/install/curl)
+[![x-cmd/install — curl Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/curl.svg?lang=zh)](https://x-cmd.com/install/curl)
 
 ## 安装
 
@@ -14,14 +14,14 @@ x install curl
 
 ## 代码洞察
 
-合计: **272,791** 行代码（覆盖前 5 种语言、共 **1185** 个文件）。
+合计: **273,305** 行代码（覆盖前 5 种语言、共 **1189** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 193,814 | 42,769 | 29,145 | 787 |
-| Perl | 19,110 | 4,769 | 2,742 | 69 |
-| CHeader | 15,910 | 11,525 | 3,733 | 256 |
-| Python | 12,236 | 1,934 | 1,463 | 51 |
+| C | 194,315 | 42,899 | 29,224 | 791 |
+| Perl | 19,114 | 4,770 | 2,742 | 69 |
+| CHeader | 15,911 | 11,526 | 3,734 | 256 |
+| Python | 12,237 | 1,934 | 1,463 | 51 |
 | M4 | 8,154 | 2,507 | 1,072 | 22 |
 
 ## OpenSSF Scorecard 评分
@@ -43,27 +43,27 @@ x install curl
 ## 发布
 
 - **最新版本**: `curl-8_22_0` (2026-09-02)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 42,893 · **Fork**: 7,372 · **开放 issue**: 5,584 · **贡献者**: 1,257
+- **Star**: 42,900 · **Fork**: 7,373 · **开放 issue**: 5,585 · **贡献者**: 1,257
 
 ## 累计统计
 
-- **发布数**: 98 · **已合并 PR**: 218 · **开放 PR**: 39 · **已关闭 issue**: 5575 · **开放 issue**: 9 · **提交数**: 39800
+- **发布数**: 98 · **已合并 PR**: 218 · **开放 PR**: 41 · **已关闭 issue**: 5576 · **开放 issue**: 9 · **提交数**: 39821
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 7 | 25 | 24 | 6 | 230 |
-| last60d | 2026-07-24 | 1 | 9 | 28 | 48 | 8 | 459 |
-| 90d | 2026-06-24 | 2 | 10 | 35 | 80 | 8 | 625 |
-| last180d | 2026-03-26 | 3 | 14 | 38 | 184 | 9 | 1456 |
-| 360d | 2025-09-27 | 6 | 19 | 39 | 380 | 9 | 3465 |
-| last720d | 2024-10-02 | 15 | 35 | 39 | 875 | 9 | 6373 |
+| 30d | 2026-08-24 | 1 | 7 | 27 | 23 | 6 | 245 |
+| last60d | 2026-07-25 | 1 | 9 | 30 | 49 | 8 | 474 |
+| 90d | 2026-06-25 | 1 | 10 | 36 | 78 | 8 | 640 |
+| last180d | 2026-03-27 | 3 | 14 | 40 | 183 | 9 | 1471 |
+| 360d | 2025-09-28 | 6 | 19 | 41 | 381 | 9 | 3480 |
+| last720d | 2024-10-03 | 15 | 35 | 41 | 875 | 9 | 6382 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ curl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:29:05Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T05:28:00Z._

@@ -4,7 +4,7 @@
 
 A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
 
-[![x-cmd/install — curl Code Quality Monitoring Repo Card](https://repo.x-cmd.io/curl.svg)](https://x-cmd.com/install/curl)
+[![x-cmd/install — curl Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/curl.svg)](https://x-cmd.com/install/curl)
 
 ## Install
 
@@ -14,14 +14,14 @@ x install curl
 
 ## Code insight
 
-Total: **272,791** lines of code across **1185** files in the top 5 languages.
+Total: **273,305** lines of code across **1189** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 193,814 | 42,769 | 29,145 | 787 |
-| Perl | 19,110 | 4,769 | 2,742 | 69 |
-| CHeader | 15,910 | 11,525 | 3,733 | 256 |
-| Python | 12,236 | 1,934 | 1,463 | 51 |
+| C | 194,315 | 42,899 | 29,224 | 791 |
+| Perl | 19,114 | 4,770 | 2,742 | 69 |
+| CHeader | 15,911 | 11,526 | 3,734 | 256 |
+| Python | 12,237 | 1,934 | 1,463 | 51 |
 | M4 | 8,154 | 2,507 | 1,072 | 22 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-22
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 42,893 · **Forks**: 7,372 · **Open issues**: 5,584 · **Contributors**: 1,257
+- **Stars**: 42,900 · **Forks**: 7,373 · **Open issues**: 5,585 · **Contributors**: 1,257
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 39 · **Closed issues**: 5575 · **Open issues**: 9 · **Commits**: 39800
+- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 41 · **Closed issues**: 5576 · **Open issues**: 9 · **Commits**: 39821
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 1 | 7 | 25 | 24 | 6 | 230 |
-| last60d | 2026-07-24 | 1 | 9 | 28 | 48 | 8 | 459 |
-| 90d | 2026-06-24 | 2 | 10 | 35 | 80 | 8 | 625 |
-| last180d | 2026-03-26 | 3 | 14 | 38 | 184 | 9 | 1456 |
-| 360d | 2025-09-27 | 6 | 19 | 39 | 380 | 9 | 3465 |
-| last720d | 2024-10-02 | 15 | 35 | 39 | 875 | 9 | 6373 |
+| 30d | 2026-08-24 | 1 | 7 | 27 | 23 | 6 | 245 |
+| last60d | 2026-07-25 | 1 | 9 | 30 | 49 | 8 | 474 |
+| 90d | 2026-06-25 | 1 | 10 | 36 | 78 | 8 | 640 |
+| last180d | 2026-03-27 | 3 | 14 | 40 | 183 | 9 | 1471 |
+| 360d | 2025-09-28 | 6 | 19 | 41 | 381 | 9 | 3480 |
+| last720d | 2024-10-03 | 15 | 35 | 41 | 875 | 9 | 6382 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:29:04Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:27:59Z._
