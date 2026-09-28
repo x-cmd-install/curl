@@ -14,7 +14,7 @@ x install curl
 
 ## Code insight
 
-Total: **273,794** lines of code across **1191** files in the top 5 languages.
+Total: **273,796** lines of code across **1191** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-09-26
+- **Last commit**: 2026-09-27
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 42,946 · **Forks**: 7,385 · **Open issues**: 5,595 · **Contributors**: 1,258
+- **Stars**: 42,956 · **Forks**: 7,385 · **Open issues**: 5,595 · **Contributors**: 1,258
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 45 · **Closed issues**: 5586 · **Open issues**: 9 · **Commits**: 39882
+- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 45 · **Closed issues**: 5586 · **Open issues**: 9 · **Commits**: 39887
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 1 | 7 | 29 | 30 | 6 | 212 |
-| last60d | 2026-07-29 | 1 | 9 | 33 | 56 | 7 | 483 |
-| 90d | 2026-06-29 | 1 | 10 | 40 | 88 | 8 | 642 |
-| last180d | 2026-03-31 | 3 | 14 | 44 | 187 | 9 | 1454 |
-| 360d | 2025-10-02 | 6 | 19 | 45 | 382 | 9 | 3399 |
-| last720d | 2024-10-07 | 15 | 34 | 45 | 880 | 9 | 6414 |
+| 30d | 2026-08-29 | 1 | 7 | 28 | 27 | 6 | 217 |
+| last60d | 2026-07-30 | 1 | 9 | 33 | 56 | 7 | 488 |
+| 90d | 2026-06-30 | 1 | 10 | 40 | 85 | 8 | 647 |
+| last180d | 2026-04-01 | 3 | 14 | 44 | 187 | 9 | 1459 |
+| 360d | 2025-10-03 | 6 | 19 | 45 | 382 | 9 | 3404 |
+| last720d | 2024-10-08 | 15 | 34 | 45 | 877 | 9 | 6408 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T06:00:19Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:50:57Z._
