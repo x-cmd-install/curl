@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-10-02
+- **Last commit**: 2026-10-03
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 42,990 · **Forks**: 7,395 · **Open issues**: 5,599 · **Contributors**: 1,257
+- **Stars**: 43,038 · **Forks**: 7,396 · **Open issues**: 5,601 · **Contributors**: 1,257
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 59 · **Closed issues**: 5589 · **Open issues**: 10 · **Commits**: 39978
+- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 60 · **Closed issues**: 5591 · **Open issues**: 10 · **Commits**: 39981
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 0 | 6 | 41 | 29 | 7 | 296 |
-| last60d | 2026-08-04 | 1 | 8 | 46 | 55 | 8 | 568 |
-| 90d | 2026-07-05 | 1 | 10 | 54 | 84 | 9 | 727 |
-| last180d | 2026-04-06 | 3 | 14 | 58 | 188 | 10 | 1539 |
-| 360d | 2025-10-08 | 6 | 19 | 59 | 376 | 10 | 3484 |
-| last720d | 2024-10-13 | 15 | 34 | 59 | 872 | 10 | 6444 |
+| 30d | 2026-09-04 | 0 | 6 | 42 | 28 | 6 | 237 |
+| last60d | 2026-08-05 | 1 | 8 | 47 | 55 | 8 | 513 |
+| 90d | 2026-07-06 | 1 | 10 | 55 | 86 | 9 | 706 |
+| last180d | 2026-04-07 | 3 | 14 | 59 | 188 | 10 | 1490 |
+| 360d | 2025-10-09 | 6 | 19 | 60 | 376 | 10 | 3394 |
+| last720d | 2024-10-14 | 15 | 33 | 60 | 871 | 10 | 6437 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:47:45Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T06:12:21Z._
