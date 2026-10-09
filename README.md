@@ -14,14 +14,14 @@ x install curl
 
 ## Code insight
 
-Total: **274,390** lines of code across **1194** files in the top 5 languages.
+Total: **274,836** lines of code across **1196** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 195,019 | 42,976 | 29,265 | 794 |
+| C | 195,169 | 43,001 | 29,278 | 795 |
 | Perl | 19,413 | 4,804 | 2,769 | 70 |
-| CHeader | 15,982 | 11,548 | 3,750 | 257 |
-| Python | 12,356 | 1,941 | 1,471 | 51 |
+| CHeader | 15,993 | 11,548 | 3,748 | 257 |
+| Python | 12,638 | 1,967 | 1,502 | 52 |
 | M4 | 8,155 | 2,507 | 1,072 | 22 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-10-07
+- **Last commit**: 2026-10-08
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 43,131 · **Forks**: 7,409 · **Open issues**: 5,602 · **Contributors**: 1,261
+- **Stars**: 43,133 · **Forks**: 7,413 · **Open issues**: 5,603 · **Contributors**: 1,262
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 55 · **Closed issues**: 5594 · **Open issues**: 8 · **Commits**: 40039
+- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 60 · **Closed issues**: 5594 · **Open issues**: 9 · **Commits**: 40047
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 6 | 31 | 29 | 3 | 291 |
-| last60d | 2026-08-09 | 1 | 7 | 42 | 58 | 6 | 568 |
-| 90d | 2026-07-10 | 1 | 9 | 48 | 80 | 7 | 761 |
-| last180d | 2026-04-11 | 3 | 14 | 54 | 188 | 8 | 1545 |
-| 360d | 2025-10-13 | 6 | 19 | 55 | 374 | 8 | 3450 |
-| last720d | 2024-10-18 | 15 | 33 | 55 | 868 | 8 | 6465 |
+| 30d | 2026-09-09 | 0 | 6 | 36 | 29 | 4 | 299 |
+| last60d | 2026-08-10 | 1 | 7 | 47 | 56 | 7 | 576 |
+| 90d | 2026-07-11 | 1 | 9 | 53 | 80 | 8 | 769 |
+| last180d | 2026-04-12 | 3 | 14 | 59 | 188 | 9 | 1553 |
+| 360d | 2025-10-14 | 6 | 19 | 60 | 374 | 9 | 3458 |
+| last720d | 2024-10-19 | 15 | 33 | 60 | 866 | 9 | 6464 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T06:31:11Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T06:34:52Z._
