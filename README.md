@@ -14,25 +14,25 @@ x install curl
 
 ## Code insight
 
-Total: **275,127** lines of code across **1209** files in the top 5 languages.
+Total: **275,436** lines of code across **1210** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 195,500 | 43,434 | 29,374 | 808 |
-| Perl | 19,353 | 4,801 | 2,755 | 70 |
-| CHeader | 15,992 | 11,554 | 3,749 | 257 |
+| C | 195,804 | 43,457 | 29,399 | 809 |
+| Perl | 19,353 | 4,801 | 2,753 | 70 |
+| CHeader | 15,995 | 11,554 | 3,749 | 257 |
 | Python | 12,638 | 1,967 | 1,502 | 52 |
 | M4 | 8,155 | 2,507 | 1,072 | 22 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.9 / 10**
+Overall score: **9 / 10**
 
 Lowest-scoring checks:
 
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integrati…
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **CI-Tests** (-1/10) — no pull request found
-- **Code-Review** (0/10) — 0 out of last 30 changesets reviewed before merge -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_22_0` (2026-09-02)
-- **Last commit**: 2026-10-13
+- **Last commit**: 2026-10-14
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 43,196 · **Forks**: 7,425 · **Open issues**: 5,609 · **Contributors**: 1,264
+- **Stars**: 43,207 · **Forks**: 7,425 · **Open issues**: 5,609 · **Contributors**: 1,266
 
 ## Totals (cumulative)
 
-- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 69 · **Closed issues**: 5600 · **Open issues**: 9 · **Commits**: 40078
+- **Releases**: 98 · **Merged PRs**: 218 · **Open PRs**: 69 · **Closed issues**: 5600 · **Open issues**: 9 · **Commits**: 40085
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 6 | 42 | 33 | 4 | 265 |
-| last60d | 2026-08-14 | 1 | 7 | 56 | 56 | 7 | 549 |
-| 90d | 2026-07-15 | 1 | 9 | 59 | 80 | 8 | 769 |
-| last180d | 2026-04-16 | 3 | 14 | 68 | 188 | 9 | 1528 |
-| 360d | 2025-10-18 | 6 | 19 | 69 | 377 | 9 | 3380 |
-| last720d | 2024-10-23 | 15 | 32 | 69 | 867 | 9 | 6473 |
+| 30d | 2026-09-14 | 0 | 5 | 41 | 33 | 4 | 271 |
+| last60d | 2026-08-15 | 1 | 7 | 56 | 56 | 7 | 555 |
+| 90d | 2026-07-16 | 1 | 9 | 59 | 79 | 8 | 775 |
+| last180d | 2026-04-17 | 3 | 14 | 67 | 188 | 9 | 1534 |
+| 360d | 2025-10-19 | 6 | 19 | 69 | 375 | 9 | 3386 |
+| last720d | 2024-10-24 | 15 | 32 | 69 | 866 | 9 | 6469 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:18:41Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:16:01Z._
