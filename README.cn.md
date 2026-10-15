@@ -2,7 +2,7 @@
 
 [English version](./README.md)
 
-A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
+A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features
 
 [![x-cmd/install — curl Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/curl.svg?lang=zh)](https://x-cmd.com/install/curl)
 
@@ -14,14 +14,14 @@ x install curl
 
 ## 代码洞察
 
-合计: **275,436** 行代码（覆盖前 5 种语言、共 **1210** 个文件）。
+合计: **275,518** 行代码（覆盖前 5 种语言、共 **1210** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 195,804 | 43,457 | 29,399 | 809 |
-| Perl | 19,353 | 4,801 | 2,753 | 70 |
-| CHeader | 15,995 | 11,554 | 3,749 | 257 |
-| Python | 12,638 | 1,967 | 1,502 | 52 |
+| C | 195,859 | 43,439 | 29,401 | 809 |
+| Perl | 19,370 | 4,803 | 2,755 | 70 |
+| CHeader | 15,996 | 11,555 | 3,749 | 257 |
+| Python | 12,638 | 1,968 | 1,502 | 52 |
 | M4 | 8,155 | 2,507 | 1,072 | 22 |
 
 ## OpenSSF Scorecard 评分
@@ -42,41 +42,42 @@ x install curl
 
 ## 发布
 
-- **最新版本**: `curl-8_22_0` (2026-09-02)
+- **最新版本**: `curl-8_23_0` (2026-10-14)
 - **最近提交**: 2026-10-14
-- **Release 含资产**: 8 个
+- **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 43,207 · **Fork**: 7,425 · **开放 issue**: 5,609 · **贡献者**: 1,266
+- **Star**: 43,114 · **Fork**: 7,426 · **开放 issue**: 5,609 · **贡献者**: 1,266
 
 ## 累计统计
 
-- **发布数**: 98 · **已合并 PR**: 218 · **开放 PR**: 69 · **已关闭 issue**: 5600 · **开放 issue**: 9 · **提交数**: 40085
+- **发布数**: 99 · **已合并 PR**: 218 · **开放 PR**: 69 · **已关闭 issue**: 5600 · **开放 issue**: 9 · **提交数**: 40099
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 5 | 41 | 33 | 4 | 271 |
-| last60d | 2026-08-15 | 1 | 7 | 56 | 56 | 7 | 555 |
-| 90d | 2026-07-16 | 1 | 9 | 59 | 79 | 8 | 775 |
-| last180d | 2026-04-17 | 3 | 14 | 67 | 188 | 9 | 1534 |
-| 360d | 2025-10-19 | 6 | 19 | 69 | 375 | 9 | 3386 |
-| last720d | 2024-10-24 | 15 | 32 | 69 | 866 | 9 | 6469 |
+| 30d | 2026-09-15 | 1 | 5 | 39 | 32 | 3 | 285 |
+| last60d | 2026-08-16 | 2 | 7 | 56 | 56 | 7 | 569 |
+| 90d | 2026-07-17 | 2 | 9 | 59 | 77 | 8 | 789 |
+| last180d | 2026-04-18 | 4 | 14 | 67 | 188 | 9 | 1548 |
+| 360d | 2025-10-20 | 7 | 19 | 69 | 374 | 9 | 3400 |
+| last720d | 2024-10-25 | 16 | 32 | 69 | 866 | 9 | 6459 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [curl-8.22.0.tar.bz2](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2) | 3.2 MiB | `other` |
-| [curl-8.22.0.tar.bz2.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.bz2.asc) | 488 B | `other` |
-| [curl-8.22.0.tar.gz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz) | 4.2 MiB | `native/unknown` |
-| [curl-8.22.0.tar.gz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.gz.asc) | 488 B | `other` |
-| [curl-8.22.0.tar.xz](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz) | 2.8 MiB | `other` |
-| [curl-8.22.0.tar.xz.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.tar.xz.asc) | 488 B | `other` |
-| [curl-8.22.0.zip](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip) | 6.9 MiB | `other` |
-| [curl-8.22.0.zip.asc](https://github.com/curl/curl/releases/download/curl-8_22_0/curl-8.22.0.zip.asc) | 488 B | `other` |
+| [curl-8-.23.0.jpg](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8-.23.0.jpg) | 389.4 KiB | `other` |
+| [curl-8.23.0.tar.bz2](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.bz2) | 3.3 MiB | `other` |
+| [curl-8.23.0.tar.bz2.asc](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.bz2.asc) | 488 B | `other` |
+| [curl-8.23.0.tar.gz](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.gz) | 4.3 MiB | `native/unknown` |
+| [curl-8.23.0.tar.gz.asc](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.gz.asc) | 488 B | `other` |
+| [curl-8.23.0.tar.xz](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.xz) | 2.9 MiB | `other` |
+| [curl-8.23.0.tar.xz.asc](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.xz.asc) | 488 B | `other` |
+| [curl-8.23.0.zip](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.zip) | 7.0 MiB | `other` |
+| [curl-8.23.0.zip.asc](https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.zip.asc) | 488 B | `other` |
 
 ## 改进这些数据
 
@@ -87,4 +88,4 @@ curl 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261014.yml` · 2026-10-14T05:16:01Z._
+_数据快照: `data/card/261015.yml` · 2026-10-15T04:57:11Z._
