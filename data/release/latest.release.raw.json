@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 398781,
       "digest": "sha256:3ffdd2273379f1066eaffd6df3dd710b3ab692d7d75d29349bee7695515bf215",
-      "download_count": 50,
+      "download_count": 56,
       "created_at": "2026-10-14T06:04:29Z",
       "updated_at": "2026-10-14T06:04:31Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8-.23.0.jpg"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3453883,
       "digest": "sha256:95b22eb32bf6d1fa6e3e9463bdb61cece3efc56d86576a9b3cbd428246a6d854",
-      "download_count": 358,
+      "download_count": 407,
       "created_at": "2026-10-14T06:05:13Z",
       "updated_at": "2026-10-14T06:05:14Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.bz2"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:5e146f0a6cdc41449f04bc78018f0585b0c5c42fbc29bf1869983587415dbc51",
-      "download_count": 36,
+      "download_count": 41,
       "created_at": "2026-10-14T06:05:10Z",
       "updated_at": "2026-10-14T06:05:10Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.bz2.asc"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 4465093,
       "digest": "sha256:e3de77cfa6367083c776a26647fc9f633b538c06c3baa73d931a252ac8f72b49",
-      "download_count": 4458,
+      "download_count": 5386,
       "created_at": "2026-10-14T06:05:12Z",
       "updated_at": "2026-10-14T06:05:13Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:fe7b5aa2d678aac81f0a95d6b27919db9b7f677a0a937777b6cffc01bd48adf1",
-      "download_count": 44,
+      "download_count": 49,
       "created_at": "2026-10-14T06:05:09Z",
       "updated_at": "2026-10-14T06:05:10Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.gz.asc"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 2990916,
       "digest": "sha256:8dadd7d2536a314f982ad05a651b713f426bf7d02cc2c76cffb9796f2218e6c5",
-      "download_count": 17808,
+      "download_count": 21804,
       "created_at": "2026-10-14T06:05:11Z",
       "updated_at": "2026-10-14T06:05:12Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.xz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:dba1562fec2bf698a1226054e6757940e4bf2ab87b3b222a5e7b91348f0b82e2",
-      "download_count": 257,
+      "download_count": 306,
       "created_at": "2026-10-14T06:05:09Z",
       "updated_at": "2026-10-14T06:05:09Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.tar.xz.asc"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 7322234,
       "digest": "sha256:85477fe11408471285f38a601e7c6f53470d13be9a5a316919b071ad02e68213",
-      "download_count": 409,
+      "download_count": 447,
       "created_at": "2026-10-14T06:05:10Z",
       "updated_at": "2026-10-14T06:05:11Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 488,
       "digest": "sha256:c8e88c015b9d86b26fdde1399edf62134c38b55617fe9aa2a3d380f02cfd4f26",
-      "download_count": 20,
+      "download_count": 23,
       "created_at": "2026-10-14T06:05:08Z",
       "updated_at": "2026-10-14T06:05:09Z",
       "browser_download_url": "https://github.com/curl/curl/releases/download/curl-8_23_0/curl-8.23.0.zip.asc"
@@ -366,13 +366,13 @@
   "body": "[changelog](https://curl.se/ch/)\r\n[release blog](https://daniel.haxx.se/blog/2026/10/14/curl-8-23-0/)\r\n\r\n<img width=\"2000\" height=\"1005\" alt=\"curl-8- 23 0\" src=\"https://github.com/user-attachments/assets/087701d9-fcb5-4951-a83c-e859f3233524\" />\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/curl/curl/releases/412386365/reactions",
-    "total_count": 40,
+    "total_count": 41,
     "+1": 14,
     "-1": 0,
     "laugh": 1,
     "hooray": 5,
     "confused": 0,
-    "heart": 11,
+    "heart": 12,
     "rocket": 9,
     "eyes": 0
   }
