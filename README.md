@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,324 · **Forks**: 7,471 · **Open issues**: 5,647 · **Contributors**: 1,287
+- **Stars**: 43,334 · **Forks**: 7,472 · **Open issues**: 5,648 · **Contributors**: 1,287
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 221 · **Open PRs**: 73 · **Closed issues**: 5627 · **Open issues**: 20 · **Commits**: 40319
+- **Releases**: 99 · **Merged PRs**: 221 · **Open PRs**: 75 · **Closed issues**: 5627 · **Open issues**: 21 · **Commits**: 40319
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 1 | 3 | 45 | 36 | 13 | 324 |
-| last60d | 2026-09-01 | 2 | 10 | 64 | 68 | 17 | 648 |
-| 90d | 2026-08-02 | 2 | 12 | 65 | 98 | 18 | 910 |
-| last180d | 2026-05-04 | 3 | 16 | 72 | 198 | 20 | 1660 |
-| 360d | 2025-11-05 | 7 | 22 | 73 | 380 | 20 | 3459 |
-| last720d | 2024-11-10 | 15 | 34 | 73 | 863 | 20 | 6601 |
+| 30d | 2026-10-02 | 1 | 3 | 47 | 35 | 14 | 248 |
+| last60d | 2026-09-02 | 2 | 9 | 66 | 67 | 18 | 583 |
+| 90d | 2026-08-03 | 2 | 11 | 67 | 96 | 19 | 860 |
+| last180d | 2026-05-05 | 3 | 16 | 74 | 198 | 21 | 1618 |
+| 360d | 2025-11-06 | 6 | 22 | 75 | 380 | 21 | 3347 |
+| last720d | 2024-11-11 | 15 | 34 | 75 | 859 | 21 | 6601 |
 
 ## Release assets
 
@@ -81,12 +81,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **894** distros on [repology.org](https://repology.org/project/curl). **170** are ✅ on the latest upstream release, **385** are ⚠️ on an older version.
+Reported by **893** distros on [repology.org](https://repology.org/project/curl). **170** are ✅ on the latest upstream release, **386** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `8.23.0~rc3` | 🪦 legacy |
-| Debian 14 | `8.22.0` | ⚠️ outdated |
+| Debian unstable | `8.21.0` | 🪦 legacy |
+| Debian 14 | `8.21.0` | 🪦 legacy |
 | Debian 13 | `8.14.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `8.18.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `8.5.0` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:01:03Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:27:43Z._
