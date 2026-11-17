@@ -14,25 +14,25 @@ x install curl
 
 ## Code insight
 
-Total: **277,686** lines of code across **1218** files in the top 5 languages.
+Total: **278,277** lines of code across **1221** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 196,827 | 42,839 | 29,133 | 812 |
+| C | 197,316 | 42,886 | 29,178 | 814 |
 | Perl | 19,529 | 4,847 | 2,760 | 72 |
-| CHeader | 16,143 | 11,527 | 3,751 | 256 |
-| Python | 13,322 | 2,085 | 1,591 | 56 |
+| CHeader | 16,241 | 11,556 | 3,760 | 257 |
+| Python | 13,320 | 2,085 | 1,591 | 56 |
 | M4 | 8,205 | 2,512 | 1,079 | 22 |
 
 ## OpenSSF Scorecard
 
-Overall score: **9 / 10**
+Overall score: **8.7 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **CI-Tests** (-1/10) — no pull request found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `curl-8_23_0` (2026-10-14)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-17
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 43,525 · **Forks**: 7,503 · **Open issues**: 5,734 · **Contributors**: 1,299
+- **Stars**: 43,539 · **Forks**: 7,503 · **Open issues**: 5,739 · **Contributors**: 1,301
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 222 · **Open PRs**: 62 · **Closed issues**: 5697 · **Open issues**: 37 · **Commits**: 40484
+- **Releases**: 99 · **Merged PRs**: 222 · **Open PRs**: 54 · **Closed issues**: 5704 · **Open issues**: 35 · **Commits**: 40506
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 4 | 36 | 87 | 31 | 229 |
-| last60d | 2026-09-17 | 1 | 8 | 48 | 126 | 31 | 615 |
-| 90d | 2026-08-18 | 2 | 11 | 57 | 151 | 35 | 917 |
-| last180d | 2026-05-20 | 3 | 17 | 60 | 245 | 36 | 1641 |
-| 360d | 2025-11-21 | 6 | 22 | 62 | 429 | 37 | 3329 |
-| last720d | 2024-11-26 | 15 | 35 | 62 | 909 | 37 | 6720 |
+| 30d | 2026-10-18 | 0 | 4 | 29 | 93 | 27 | 249 |
+| last60d | 2026-09-18 | 1 | 8 | 42 | 131 | 29 | 635 |
+| 90d | 2026-08-19 | 2 | 11 | 49 | 156 | 33 | 939 |
+| last180d | 2026-05-21 | 3 | 17 | 52 | 251 | 34 | 1663 |
+| 360d | 2025-11-22 | 6 | 22 | 54 | 436 | 35 | 3351 |
+| last720d | 2024-11-27 | 15 | 35 | 54 | 914 | 35 | 6739 |
 
 ## Release assets
 
@@ -81,12 +81,12 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **893** distros on [repology.org](https://repology.org/project/curl). **189** are ✅ on the latest upstream release, **367** are ⚠️ on an older version.
+Reported by **889** distros on [repology.org](https://repology.org/project/curl). **190** are ✅ on the latest upstream release, **360** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `8.23.0` | ✅ latest |
-| Debian 14 | `8.22.0` | ⚠️ outdated |
+| Debian 14 | `8.23.0` | ✅ latest |
 | Debian 13 | `8.14.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `8.18.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `8.5.0` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:16:10Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:48:06Z._
