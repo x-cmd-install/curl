@@ -14,13 +14,13 @@ x install curl
 
 ## Code insight
 
-Total: **278,530** lines of code across **1221** files in the top 5 languages.
+Total: **278,515** lines of code across **1221** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 197,523 | 42,902 | 29,208 | 814 |
+| C | 197,507 | 42,893 | 29,209 | 814 |
 | Perl | 19,529 | 4,850 | 2,759 | 72 |
-| CHeader | 16,244 | 11,556 | 3,760 | 257 |
+| CHeader | 16,245 | 11,556 | 3,760 | 257 |
 | Python | 13,398 | 2,089 | 1,595 | 56 |
 | M4 | 8,175 | 2,503 | 1,077 | 22 |
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,605 · **Forks**: 7,502 · **Open issues**: 5,742 · **Contributors**: 1,303
+- **Stars**: 43,620 · **Forks**: 7,504 · **Open issues**: 5,746 · **Contributors**: 1,303
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 222 · **Open PRs**: 56 · **Closed issues**: 5711 · **Open issues**: 31 · **Commits**: 40547
+- **Releases**: 99 · **Merged PRs**: 222 · **Open PRs**: 62 · **Closed issues**: 5714 · **Open issues**: 32 · **Commits**: 40552
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 4 | 28 | 97 | 23 | 290 |
-| last60d | 2026-09-21 | 1 | 4 | 45 | 137 | 26 | 676 |
-| 90d | 2026-08-22 | 2 | 11 | 51 | 164 | 29 | 980 |
-| last180d | 2026-05-24 | 3 | 15 | 54 | 256 | 31 | 1704 |
-| 360d | 2025-11-25 | 6 | 22 | 56 | 443 | 31 | 3392 |
-| last720d | 2024-11-30 | 15 | 35 | 56 | 920 | 31 | 6770 |
+| 30d | 2026-10-22 | 0 | 4 | 34 | 98 | 24 | 295 |
+| last60d | 2026-09-22 | 1 | 4 | 52 | 138 | 27 | 681 |
+| 90d | 2026-08-23 | 2 | 11 | 57 | 165 | 30 | 985 |
+| last180d | 2026-05-25 | 3 | 15 | 60 | 259 | 32 | 1709 |
+| 360d | 2025-11-26 | 6 | 22 | 62 | 444 | 32 | 3397 |
+| last720d | 2024-12-01 | 15 | 35 | 62 | 922 | 32 | 6775 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **878** distros on [repology.org](https://repology.org/project/curl). **193** are ✅ on the latest upstream release, **347** are ⚠️ on an older version.
+Reported by **873** distros on [repology.org](https://repology.org/project/curl). **193** are ✅ on the latest upstream release, **348** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -107,4 +107,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:04:52Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:38:28Z._
