@@ -1,3 +1,12 @@
+- repo: aerynos
+  srcname: curl
+  visiblename: curl
+  version: 8.23.0
+  origversion: null
+  status: newest
+  summary: A utility for fetching files from remote servers
+  licenses:
+    - MIT
 - repo: aixtoolbox
   srcname: curl
   visiblename: curl
@@ -9,15 +18,6 @@
     - MIT/X derivate
   categories:
     - Applications/Internet
-- repo: aerynos
-  srcname: curl
-  visiblename: curl
-  version: 8.23.0
-  origversion: null
-  status: newest
-  summary: A utility for fetching files from remote servers
-  licenses:
-    - MIT
 - repo: alpine_3_23
   subrepo: main
   srcname: curl
@@ -122,6 +122,13 @@
     - achill@achill.org
   licenses:
     - curl
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.21.3
+  origversion: 7.21.3-1
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_24
   subrepo: main
   srcname: curl
@@ -400,6 +407,20 @@
     - MIT
   categories:
     - Networking/File transfer
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.21.7
+  origversion: 7.21.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.21.7
+  origversion: 7.21.7-2
+  status: legacy
+  vulnerable: true
 - repo: aosc
   srcname: app-web/curl
   binname: curl
@@ -425,36 +446,14 @@
   categories:
     - utils
 - repo: arch
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-libcurl-gnutls
-  visiblename: lib32-libcurl-gnutls
+  subrepo: core
+  srcname: curl
+  binname: libcurl-compat
+  visiblename: libcurl-compat
   version: 8.23.0
   origversion: 8.23.0-2
   status: newest
-  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols, linked against gnutls)
-  licenses:
-    - curl
-- repo: arch
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-libcurl-compat
-  visiblename: lib32-libcurl-compat
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols)
-  licenses:
-    - curl
-- repo: arch
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-curl
-  visiblename: lib32-curl
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (32-bit)
+  summary: command line tool and library for transferring data with URLs (no versioned symbols)
   licenses:
     - curl
 - repo: arch
@@ -466,17 +465,6 @@
   origversion: 8.23.0-2
   status: newest
   summary: command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
-  licenses:
-    - curl
-- repo: arch
-  subrepo: core
-  srcname: curl
-  binname: libcurl-compat
-  visiblename: libcurl-compat
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (no versioned symbols)
   licenses:
     - curl
 - repo: arch
@@ -499,6 +487,68 @@
   origversion: 8.23.0-3
   status: newest
   summary: command line tool and library for transferring data with URLs (with rustls)
+  licenses:
+    - curl
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.27.0
+  origversion: 7.27.0-1
+  status: legacy
+  vulnerable: true
+- repo: arch
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-libcurl-compat
+  visiblename: lib32-libcurl-compat
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols)
+  licenses:
+    - curl
+- repo: crux_38
+  subrepo: core
+  srcname: curl
+  visiblename: curl
+  version: 8.23.0
+  origversion: null
+  status: newest
+  summary: A tool for transfering files with URL syntax
+  maintainers:
+    - core-ports@crux.nu
+- repo: arch
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-curl
+  visiblename: lib32-curl
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (32-bit)
+  licenses:
+    - curl
+- repo: arch
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-libcurl-gnutls
+  visiblename: lib32-libcurl-gnutls
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols, linked against gnutls)
+  licenses:
+    - curl
+- repo: aur
+  srcname: curl-c-ares
+  binname: curl-c-ares
+  visiblename: curl-c-ares
+  version: 8.22.0
+  origversion: 8.22.0-1
+  status: outdated
+  summary: command line tool and library for transferring data with URLs (built with c-ares)
+  maintainers:
+    - 5long@aur
   licenses:
     - curl
 - repo: aur
@@ -562,18 +612,6 @@
   licenses:
     - MIT
 - repo: aur
-  srcname: curl-c-ares
-  binname: curl-c-ares
-  visiblename: curl-c-ares
-  version: 8.22.0
-  origversion: 8.22.0-1
-  status: outdated
-  summary: command line tool and library for transferring data with URLs (built with c-ares)
-  maintainers:
-    - 5long@aur
-  licenses:
-    - curl
-- repo: aur
   srcname: curl-git
   binname: curl-git
   visiblename: curl-git
@@ -609,6 +647,16 @@
     - chocobo1@aur
   licenses:
     - MIT
+- repo: crux_38
+  subrepo: compat-32
+  srcname: curl-32
+  visiblename: curl-32
+  version: 8.23.0
+  origversion: null
+  status: newest
+  summary: A tool for transfering files with URL syntax
+  maintainers:
+    - compat-32-ports@crux.nu
 - repo: aur
   srcname: mingw-w64-curl
   binname: mingw-w64-curl
@@ -654,6 +702,13 @@
   summary: command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
   licenses:
     - curl
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.22.0
+  origversion: 7.22.0-1
+  status: legacy
+  vulnerable: true
 - repo: artix
   subrepo: lib32
   srcname: lib32-curl
@@ -695,15 +750,17 @@
   origversion: null
   status: newest
   summary: Curl is a command-line tool for transferring data specified with URL syntax.
-- repo: chromebrew
-  srcname: curl_static
-  visiblename: curl_static
-  version: "20260301.1"
-  origversion: null
-  status: incorrect
-  summary: Static curl 8.x via alpine build
+- repo: manjaro_testing
+  subrepo: core
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs
   licenses:
-    - GPL-3
+    - curl
 - repo: chimera
   subrepo: main
   srcname: curl
@@ -792,6 +849,17 @@
   summary: Command line tool for transferring data with URL syntax (manual pages)
   licenses:
     - curl
+- repo: manjaro_testing
+  subrepo: core
+  srcname: curl
+  binname: libcurl-compat
+  visiblename: libcurl-compat
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (no versioned symbols)
+  licenses:
+    - curl
 - repo: chimera
   subrepo: main
   srcname: curl
@@ -819,32 +887,21 @@
   summary: Command line tool and library for transferring data with URLs.
   licenses:
     - curl
+- repo: chromebrew
+  srcname: curl_static
+  visiblename: curl_static
+  version: "20260301.1"
+  origversion: null
+  status: incorrect
+  summary: Static curl 8.x via alpine build
+  licenses:
+    - GPL-3
 - repo: conancenter
   srcname: libcurl
   visiblename: libcurl
   version: 8.23.0
   origversion: null
   status: newest
-- repo: crux_38
-  subrepo: core
-  srcname: curl
-  visiblename: curl
-  version: 8.23.0
-  origversion: null
-  status: newest
-  summary: A tool for transfering files with URL syntax
-  maintainers:
-    - core-ports@crux.nu
-- repo: crux_38
-  subrepo: compat-32
-  srcname: curl-32
-  visiblename: curl-32
-  version: 8.23.0
-  origversion: null
-  status: newest
-  summary: A tool for transfering files with URL syntax
-  maintainers:
-    - compat-32-ports@crux.nu
 - repo: cygwin
   srcname: curl
   binname: curl
@@ -929,28 +986,6 @@
     - curl
   categories:
     - Net
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: curl
-  binnames:
-    - curl
-    - libcurl4t64
-    - libcurl4-gnutls
-    - libcurl3t64-gnutls
-    - libcurl4-openssl-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-doc
-  visiblename: curl
-  version: 8.24.0~rc1
-  origversion: 8.24.0~rc1-1
-  status: devel
-  maintainers:
-    - team+curl@tracker.debian.org
-    - charlesmelara@riseup.net
-    - samueloph@debian.org
-    - sergiodj@debian.org
-  categories:
-    - libs
 - repo: cygwin
   srcname: mingw64-x86_64-curl
   binname: mingw64-x86_64-curl-debuginfo
@@ -965,6 +1000,13 @@
     - curl
   categories:
     - Debug
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.28.0
+  origversion: 7.28.0-1
+  status: legacy
+  vulnerable: true
 - repo: debian_14
   subrepo: forky/main
   srcname: curl
@@ -1097,6 +1139,28 @@
     - sergiodj@debian.org
   categories:
     - libs
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl4t64
+    - libcurl4-gnutls
+    - libcurl3t64-gnutls
+    - libcurl4-openssl-dev
+    - libcurl4-gnutls-dev
+    - libcurl4-doc
+  visiblename: curl
+  version: 8.24.0~rc1
+  origversion: 8.24.0~rc1-1
+  status: devel
+  maintainers:
+    - team+curl@tracker.debian.org
+    - charlesmelara@riseup.net
+    - samueloph@debian.org
+    - sergiodj@debian.org
+  categories:
+    - libs
 - repo: exherbo
   subrepo: arbor
   srcname: net-misc/curl
@@ -1126,6 +1190,17 @@
     - curl
   categories:
     - Unspecified
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: curl-rustls
+  binname: curl-rustls
+  visiblename: curl-rustls
+  version: 8.23.0
+  origversion: 8.23.0-3
+  status: newest
+  summary: command line tool and library for transferring data with URLs (with rustls)
+  licenses:
+    - curl
 - repo: fedora_rawhide
   subrepo: development
   srcname: mingw-curl
@@ -1199,6 +1274,17 @@
     - BSD curl ISC test? ( BSD-4 )
   categories:
     - net-misc
+- repo: manjaro_testing
+  subrepo: core
+  srcname: curl
+  binname: libcurl-gnutls
+  visiblename: libcurl-gnutls
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
+  licenses:
+    - curl
 - repo: gentoo
   srcname: net-misc/curl
   visiblename: net-misc/curl
@@ -1213,6 +1299,28 @@
     - BSD curl ISC test? ( BSD-4 )
   categories:
     - net-misc
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-curl
+  visiblename: lib32-curl
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (32-bit)
+  licenses:
+    - curl
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-libcurl-compat
+  visiblename: lib32-libcurl-compat
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols)
+  licenses:
+    - curl
 - repo: haikuports_master
   srcname: net-misc/curl
   visiblename: net-misc/curl
@@ -1301,28 +1409,35 @@
     - BSD curl ISC test? ( BSD-4 )
   categories:
     - net-misc
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: Multi-protocol file transfer utility
-  licenses:
-    - spdx:MIT
 - repo: manjaro_testing
   subrepo: multilib
   srcname: lib32-curl
-  binname: lib32-libcurl-compat
-  visiblename: lib32-libcurl-compat
+  binname: lib32-libcurl-gnutls
+  visiblename: lib32-libcurl-gnutls
   version: 8.23.0
   origversion: 8.23.0-2
   status: newest
-  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols)
+  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols, linked against gnutls)
   licenses:
     - curl
+- repo: manjaro_unstable
+  subrepo: core
+  srcname: curl
+  binname: libcurl-gnutls
+  visiblename: libcurl-gnutls
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
+  licenses:
+    - curl
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.22.0
+  origversion: 7.22.0-2
+  status: legacy
+  vulnerable: true
 - repo: liguros_develop
   srcname: net-misc/curl
   visiblename: net-misc/curl
@@ -1462,6 +1577,39 @@
   categories:
     - Development/Other
 - repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-libcurl-gnutls
+  visiblename: lib32-libcurl-gnutls
+  version: 8.22.0
+  origversion: 8.22.0-1
+  status: outdated
+  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols, linked against gnutls)
+  licenses:
+    - curl
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-libcurl-compat
+  visiblename: lib32-libcurl-compat
+  version: 8.22.0
+  origversion: 8.22.0-1
+  status: outdated
+  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols)
+  licenses:
+    - curl
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-curl
+  binname: lib32-curl
+  visiblename: lib32-curl
+  version: 8.22.0
+  origversion: 8.22.0-1
+  status: outdated
+  summary: command line tool and library for transferring data with URLs (32-bit)
+  licenses:
+    - curl
+- repo: manjaro_stable
   subrepo: core
   srcname: curl
   binname: curl
@@ -1505,73 +1653,7 @@
   summary: command line tool and library for transferring data with URLs (with rustls)
   licenses:
     - curl
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-libcurl-gnutls
-  visiblename: lib32-libcurl-gnutls
-  version: 8.22.0
-  origversion: 8.22.0-1
-  status: outdated
-  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols, linked against gnutls)
-  licenses:
-    - curl
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-libcurl-compat
-  visiblename: lib32-libcurl-compat
-  version: 8.22.0
-  origversion: 8.22.0-1
-  status: outdated
-  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols)
-  licenses:
-    - curl
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-curl
-  visiblename: lib32-curl
-  version: 8.22.0
-  origversion: 8.22.0-1
-  status: outdated
-  summary: command line tool and library for transferring data with URLs (32-bit)
-  licenses:
-    - curl
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: curl-rustls
-  binname: curl-rustls
-  visiblename: curl-rustls
-  version: 8.23.0
-  origversion: 8.23.0-3
-  status: newest
-  summary: command line tool and library for transferring data with URLs (with rustls)
-  licenses:
-    - curl
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-curl
-  visiblename: lib32-curl
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (32-bit)
-  licenses:
-    - curl
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-curl
-  binname: lib32-libcurl-gnutls
-  visiblename: lib32-libcurl-gnutls
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (32-bit, no versioned symbols, linked against gnutls)
-  licenses:
-    - curl
-- repo: manjaro_testing
+- repo: manjaro_unstable
   subrepo: core
   srcname: curl
   binname: libcurl-compat
@@ -1580,28 +1662,6 @@
   origversion: 8.23.0-2
   status: newest
   summary: command line tool and library for transferring data with URLs (no versioned symbols)
-  licenses:
-    - curl
-- repo: manjaro_testing
-  subrepo: core
-  srcname: curl
-  binname: libcurl-gnutls
-  visiblename: libcurl-gnutls
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
-  licenses:
-    - curl
-- repo: manjaro_testing
-  subrepo: core
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs
   licenses:
     - curl
 - repo: manjaro_unstable
@@ -1613,28 +1673,6 @@
   origversion: 8.23.0-2
   status: newest
   summary: command line tool and library for transferring data with URLs
-  licenses:
-    - curl
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: curl
-  binname: libcurl-gnutls
-  visiblename: libcurl-gnutls
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (no versioned symbols, linked against gnutls)
-  licenses:
-    - curl
-- repo: manjaro_unstable
-  subrepo: core
-  srcname: curl
-  binname: libcurl-compat
-  visiblename: libcurl-compat
-  version: 8.23.0
-  origversion: 8.23.0-2
-  status: newest
-  summary: command line tool and library for transferring data with URLs (no versioned symbols)
   licenses:
     - curl
 - repo: manjaro_unstable
@@ -1811,6 +1849,17 @@
     - spdx:MIT
   categories:
     - libraries
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 8.23.0
+  origversion: 8.23.0-2
+  status: newest
+  summary: Multi-protocol file transfer utility
+  licenses:
+    - spdx:MIT
 - repo: msys2_ucrt64
   srcname: mingw-w64-curl
   binname: mingw-w64-ucrt-x86_64-curl-winssl
@@ -1873,6 +1922,13 @@
     - pyrox@pyrox.dev
   licenses:
     - curl
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.23.1
+  origversion: 7.23.1-1
+  status: legacy
+  vulnerable: true
 - repo: nix_stable_26_05
   srcname: curlFull
   visiblename: curl
@@ -1995,6 +2051,20 @@
     - pyrox@pyrox.dev
   licenses:
     - curl
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.28.1
+  origversion: 7.28.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.29.0
+  origversion: 7.29.0-1
+  status: legacy
+  vulnerable: true
 - repo: npackd_stable64
   srcname: se.haxx.curl.CURL64
   binname: se.haxx.curl.CURL64
@@ -2051,16 +2121,6 @@
   summary: The CURL Network Utility and Library
   categories:
     - System/Libraries
-- repo: starkos
-  subrepo: main
-  srcname: curl
-  visiblename: curl
-  version: 8.23.0
-  origversion: 8.23.0-1
-  status: newest
-  summary: Utility and a library used for transferring files
-  maintainers:
-    - starkos@disroot.org
 - repo: openmamba
   subrepo: base
   srcname: curl
@@ -2138,6 +2198,13 @@
     - BSD-like
   categories:
     - Networking/Other
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.23.1
+  origversion: 7.23.1-2
+  status: legacy
+  vulnerable: true
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: curl
@@ -2265,6 +2332,13 @@
   summary: Transfers data over the Internet using HTTP, FTP, SFTP, etc
   categories:
     - Networking/Other
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.30.0
+  origversion: 7.30.0-1
+  status: legacy
+  vulnerable: true
 - repo: pisi_main
   subrepo: core
   srcname: system/base/curl
@@ -2376,20 +2450,27 @@
     - fallback-mnt-ravenports@repology
   categories:
     - ftp
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.31.0
+  origversion: 7.31.0-1
+  status: legacy
+  vulnerable: true
 - repo: solus
   srcname: curl
-  binname: curl-32bit
-  visiblename: curl-32bit
+  binname: curl-dbginfo
+  visiblename: curl-dbginfo
   version: 8.23.0
   origversion: null
   status: newest
-  summary: 32-bit libraries for curl
+  summary: Debug symbols for curl
   maintainers:
     - david@davidjharder.ca
   licenses:
     - MIT
   categories:
-    - emul32
+    - debug
 - repo: scoop
   subrepo: main
   binname: curl
@@ -2449,6 +2530,20 @@
     - volkerdi@slackware.com
 - repo: solus
   srcname: curl
+  binname: curl-32bit
+  visiblename: curl-32bit
+  version: 8.23.0
+  origversion: null
+  status: newest
+  summary: 32-bit libraries for curl
+  maintainers:
+    - david@davidjharder.ca
+  licenses:
+    - MIT
+  categories:
+    - emul32
+- repo: solus
+  srcname: curl
   binname: curl-32bit-dbginfo
   visiblename: curl-32bit-dbginfo
   version: 8.23.0
@@ -2489,20 +2584,6 @@
     - MIT
   categories:
     - system.base
-- repo: solus
-  srcname: curl
-  binname: curl-dbginfo
-  visiblename: curl-dbginfo
-  version: 8.23.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for curl
-  maintainers:
-    - david@davidjharder.ca
-  licenses:
-    - MIT
-  categories:
-    - debug
 - repo: solus
   srcname: curl
   binname: curl-devel
@@ -2713,6 +2794,16 @@
     - lib
 - repo: starkos
   subrepo: main
+  srcname: curl
+  visiblename: curl
+  version: 8.23.0
+  origversion: 8.23.0-1
+  status: newest
+  summary: Utility and a library used for transferring files
+  maintainers:
+    - starkos@disroot.org
+- repo: starkos
+  subrepo: main
   srcname: libcurl-compat
   visiblename: libcurl-compat
   version: 8.23.0
@@ -2764,6 +2855,20 @@
   summary: Easy-to-use client-side URL transfer library
   maintainers:
     - termux@github
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.24.0
+  origversion: 7.24.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.24.0
+  origversion: 7.24.0-2
+  status: legacy
+  vulnerable: true
 - repo: ubuntu_27_04
   subrepo: tenacious/main
   srcname: curl
@@ -2798,40 +2903,40 @@
   srcname: curl
   binname: curl
   visiblename: curl
-  version: 8.22.0
-  origversion: 8.22.0_1
-  status: outdated
+  version: 8.23.0
+  origversion: 8.23.0_1
+  status: newest
   summary: Client that groks URLs
   maintainers:
     - ericonr@disroot.org
   licenses:
-    - MIT
+    - curl
 - repo: void_x86_64
   subrepo: x86_64
   srcname: curl
   binname: libcurl
   visiblename: libcurl
-  version: 8.22.0
-  origversion: 8.22.0_1
-  status: outdated
+  version: 8.23.0
+  origversion: 8.23.0_1
+  status: newest
   summary: Multiprotocol file transfer library
   maintainers:
     - ericonr@disroot.org
   licenses:
-    - MIT
+    - curl
 - repo: void_x86_64
   subrepo: x86_64
   srcname: curl
   binname: libcurl-devel
   visiblename: libcurl-devel
-  version: 8.22.0
-  origversion: 8.22.0_1
-  status: outdated
+  version: 8.23.0
+  origversion: 8.23.0_1
+  status: newest
   summary: Multiprotocol file transfer library - development files
   maintainers:
     - ericonr@disroot.org
   licenses:
-    - MIT
+    - curl
 - repo: vylen
   subrepo: core
   srcname: curl
@@ -2874,8 +2979,43 @@
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.34.0
-  origversion: 7.34.0-1
+  version: 7.25.0
+  origversion: 7.25.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.19.2
+  origversion: 7.19.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.19.3
+  origversion: 7.19.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.19.4
+  origversion: 7.19.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.19.5
+  origversion: 7.19.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.19.6
+  origversion: 7.19.6-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -2895,20 +3035,6 @@
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.35.0
-  origversion: 7.35.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.36.0
-  origversion: 7.36.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
   version: 7.21.0
   origversion: 7.21.0-1
   status: legacy
@@ -2916,371 +3042,8 @@
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.21.1
-  origversion: 7.21.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.21.2
-  origversion: 7.21.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.37.0
-  origversion: 7.37.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.21.3
-  origversion: 7.21.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.21.7
-  origversion: 7.21.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.21.7
-  origversion: 7.21.7-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.22.0
-  origversion: 7.22.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.38.0
-  origversion: 7.38.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.39.0
-  origversion: 7.39.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.40.0
-  origversion: 7.40.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.41.0
-  origversion: 7.41.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.44.0
-  origversion: 7.44.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.22.0
-  origversion: 7.22.0-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.46.0
-  origversion: 7.46.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.42.0
-  origversion: 7.42.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.23.1
-  origversion: 7.23.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.43.0
-  origversion: 7.43.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.45.0
-  origversion: 7.45.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.47.0
-  origversion: 7.47.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.47.0
-  origversion: 7.47.0-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.47.1
-  origversion: 7.47.1-1
-  status: legacy
-  vulnerable: true
-- repo: tincan
-  subrepo: core
-  srcname: curl
-  visiblename: curl
-  version: 8.15.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - avs.origami@gmail.com
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.48.0
-  origversion: 7.48.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.49.0
-  origversion: 7.49.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.49.1
-  origversion: 7.49.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.50.0
-  origversion: 7.50.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.50.1
-  origversion: 7.50.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.50.2
-  origversion: 7.50.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.50.3
-  origversion: 7.50.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.51.0
-  origversion: 7.51.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.52.0
-  origversion: 7.52.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.53.0
-  origversion: 7.53.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.52.1
-  origversion: 7.52.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.53.1
-  origversion: 7.53.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.54.0
-  origversion: 7.54.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.54.1
-  origversion: 7.54.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.55.0
-  origversion: 7.55.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.55.1
-  origversion: 7.55.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
   version: 7.65.2
   origversion: 7.65.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.57.0
-  origversion: 7.57.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.59.0
-  origversion: 7.59.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.60.0
-  origversion: 7.60.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.63.0
-  origversion: 7.63.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.62.0
-  origversion: 7.62.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.64.0
-  origversion: 7.64.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.64.1
-  origversion: 7.64.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.65.0
-  origversion: 7.65.0-1
-  status: legacy
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-12.amzn2.0.2
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-12.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.65.1
-  origversion: 7.65.1-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3353,298 +3116,99 @@
   origversion: 7.72.0-1
   status: outdated
   vulnerable: true
-- repo: amazon_2
+- repo: hpux_11_31
+  subrepo: ia64_64
   srcname: curl
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-12.amzn2.0.4
+  version: 7.73.0
+  origversion: null
   status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
-- repo: amazon_2
+- repo: sagemath_stable
   srcname: curl
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-11.amzn2.0.2
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8
+  version: 8.16.0
+  origversion: null
   status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  vulnerable: true
+- repo: sagemath_develop
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 8.16.0
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: slackbuilds
+  srcname: network/curl-quic
+  visiblename: network/curl-quic
+  version: 8.6.0
+  origversion: null
+  status: outdated
+  categories:
+    - network
+  vulnerable: true
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: curl
+  visiblename: curl
+  version: 7.81.0
+  origversion: null
+  status: legacy
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: amazon_2
-  srcname: curl
+- repo: slackware_15_0
+  subrepo: patches
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-9.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.76.1
-  origversion: 7.76.1-4.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.76.1
-  origversion: 7.76.1-7.amzn2.0.2
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.79.1
-  origversion: 7.79.1-1.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.79.1
-  origversion: 7.79.1-2.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.79.1
-  origversion: 7.79.1-4.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.10
+  version: 8.17.0
+  origversion: null
   status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.11
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.13
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.79.1
-  origversion: 7.79.1-6.amzn2.0.1
+  version: 7.81.0
+  origversion: null
   status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.18
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.2
+  version: 8.17.0
+  origversion: null
   status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: amazon_2
-  srcname: curl
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: curl
   visiblename: curl
-  version: 7.79.1
-  origversion: 7.79.1-7.amzn2.0.1
+  version: 7.81.0
+  origversion: null
   status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.3
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+    - volkerdi@slackware.com
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.8
+  version: 8.17.0
+  origversion: null
   status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.9
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.88.1
-  origversion: 7.88.1-1.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-12.105.amzn1
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-12.93.amzn1
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+    - volkerdi@slackware.com
   vulnerable: true
 - repo: amazon_1
   subrepo: updates
@@ -3685,94 +3249,41 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: amazon_1
-  subrepo: updates
+- repo: hpux_11_31
+  subrepo: hppa_32
   srcname: curl
+  binname: curl
   visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-12.99.amzn1
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_1
-  subrepo: updates
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-7.91.amzn1
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 8.0.1
-  origversion: 8.0.1-1.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 8.3.0
-  origversion: 8.3.0-1.amzn2.0.8
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 8.2.1
-  origversion: 8.2.1-1.amzn2.0.2
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.23.1
-  origversion: 7.23.1-2
+  version: 7.34.0
+  origversion: null
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.24.0
-  origversion: 7.24.0-1
+  version: 7.21.2
+  origversion: 7.21.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.24.0
-  origversion: 7.24.0-2
+  version: 7.19.6
+  origversion: 7.19.6-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.25.0
-  origversion: 7.25.0-1
+  version: 7.21.1
+  origversion: 7.21.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.19.7
+  origversion: 7.19.7-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3787,97 +3298,6 @@
   visiblename: curl
   version: 7.26.0
   origversion: 7.26.0-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.27.0
-  origversion: 7.27.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.28.0
-  origversion: 7.28.0-1
-  status: legacy
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 8.9.0
-  origversion: 8.9.0-r0
-  status: outdated
-  summary: URL retrival utility and library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.28.1
-  origversion: 7.28.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.29.0
-  origversion: 7.29.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.19.6
-  origversion: 7.19.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.30.0
-  origversion: 7.30.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.31.0
-  origversion: 7.31.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.32.0
-  origversion: 7.32.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.33.0
-  origversion: 7.33.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.19.6
-  origversion: 7.19.6-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: curl
-  visiblename: curl
-  version: 7.19.7
-  origversion: 7.19.7-1
   status: legacy
   vulnerable: true
 - repo: adelie_current
@@ -3995,30 +3415,445 @@
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.19.2
-  origversion: 7.19.2-1
+  version: 7.32.0
+  origversion: 7.32.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.19.3
-  origversion: 7.19.3-1
+  version: 7.33.0
+  origversion: 7.33.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.19.4
-  origversion: 7.19.4-1
+  version: 7.34.0
+  origversion: 7.34.0-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: curl
   visiblename: curl
-  version: 7.19.5
-  origversion: 7.19.5-1
+  version: 7.35.0
+  origversion: 7.35.0-1
   status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.36.0
+  origversion: 7.36.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.37.0
+  origversion: 7.37.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.38.0
+  origversion: 7.38.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.39.0
+  origversion: 7.39.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.40.0
+  origversion: 7.40.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.41.0
+  origversion: 7.41.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.42.0
+  origversion: 7.42.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.43.0
+  origversion: 7.43.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.44.0
+  origversion: 7.44.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.45.0
+  origversion: 7.45.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.46.0
+  origversion: 7.46.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.47.0
+  origversion: 7.47.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.47.0
+  origversion: 7.47.0-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.47.1
+  origversion: 7.47.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.48.0
+  origversion: 7.48.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.49.0
+  origversion: 7.49.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.49.1
+  origversion: 7.49.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.50.0
+  origversion: 7.50.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.50.1
+  origversion: 7.50.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.50.2
+  origversion: 7.50.2-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.50.3
+  origversion: 7.50.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.51.0
+  origversion: 7.51.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.52.0
+  origversion: 7.52.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.52.1
+  origversion: 7.52.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.53.0
+  origversion: 7.53.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.53.1
+  origversion: 7.53.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.54.0
+  origversion: 7.54.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.54.1
+  origversion: 7.54.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.55.0
+  origversion: 7.55.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.55.1
+  origversion: 7.55.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.57.0
+  origversion: 7.57.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.59.0
+  origversion: 7.59.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.60.0
+  origversion: 7.60.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.62.0
+  origversion: 7.62.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.63.0
+  origversion: 7.63.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.64.0
+  origversion: 7.64.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.64.1
+  origversion: 7.64.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.65.0
+  origversion: 7.65.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: curl
+  visiblename: curl
+  version: 7.65.1
+  origversion: 7.65.1-1
+  status: legacy
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.10
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.11
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.13
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.18
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.2
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.3
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.8
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: BaseOS
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.9
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: almalinux_9
   subrepo: BaseOS
@@ -4069,6 +3904,20 @@
 - repo: alpine_3_17
   subrepo: main
   srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 8.9.0
+  origversion: 8.9.0-r0
+  status: outdated
+  summary: URL retrival utility and library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: curl
   binname: curl-doc
   visiblename: curl-doc
   version: 8.9.0
@@ -4201,6 +4050,214 @@
   origversion: 8.12.1-r0
   status: outdated
   summary: URL retrival utility and library (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: curl
+  binname: curl-doc
+  visiblename: curl-doc
+  version: 8.12.1
+  origversion: 8.12.1-r0
+  status: outdated
+  summary: URL retrival utility and library (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: curl
+  binname: curl-fish-completion
+  visiblename: curl-fish-completion
+  version: 8.12.1
+  origversion: 8.12.1-r0
+  status: outdated
+  summary: Fish completions for curl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: curl
+  binname: curl-static
+  visiblename: curl-static
+  version: 8.12.1
+  origversion: 8.12.1-r0
+  status: outdated
+  summary: URL retrival utility and library (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 8.3.0
+  origversion: 8.3.0-1.amzn2.0.6
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - curl
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: curl
+  binname: curl-zsh-completion
+  visiblename: curl-zsh-completion
+  version: 8.12.1
+  origversion: 8.12.1-r0
+  status: outdated
+  summary: Zsh completions for curl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: curl
+  binname: libcurl
+  visiblename: libcurl
+  version: 8.12.1
+  origversion: 8.12.1-r0
+  status: outdated
+  summary: The multiprotocol file transfer library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: URL retrival utility and library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl-dbg
+  visiblename: curl-dbg
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: URL retrival utility and library (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl-dev
+  visiblename: curl-dev
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: URL retrival utility and library (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl-doc
+  visiblename: curl-doc
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: URL retrival utility and library (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl-fish-completion
+  visiblename: curl-fish-completion
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: Fish completions for curl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl-static
+  visiblename: curl-static
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: URL retrival utility and library (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: curl-zsh-completion
+  visiblename: curl-zsh-completion
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: Zsh completions for curl
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: curl
+  binname: libcurl
+  visiblename: libcurl
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: The multiprotocol file transfer library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: curl
+  binname: libcurl
+  visiblename: libcurl
+  version: 8.14.1
+  origversion: 8.14.1-r2
+  status: outdated
+  summary: The multiprotocol file transfer library
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -4230,200 +4287,6 @@
   categories:
     - Applications/Internet
   vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: curl
-  binname: curl-doc
-  visiblename: curl-doc
-  version: 8.12.1
-  origversion: 8.12.1-r0
-  status: outdated
-  summary: URL retrival utility and library (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: curl
-  binname: curl-fish-completion
-  visiblename: curl-fish-completion
-  version: 8.12.1
-  origversion: 8.12.1-r0
-  status: outdated
-  summary: Fish completions for curl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: curl
-  binname: curl-static
-  visiblename: curl-static
-  version: 8.12.1
-  origversion: 8.12.1-r0
-  status: outdated
-  summary: URL retrival utility and library (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: curl
-  binname: curl-zsh-completion
-  visiblename: curl-zsh-completion
-  version: 8.12.1
-  origversion: 8.12.1-r0
-  status: outdated
-  summary: Zsh completions for curl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: curl
-  binname: libcurl
-  visiblename: libcurl
-  version: 8.12.1
-  origversion: 8.12.1-r0
-  status: outdated
-  summary: The multiprotocol file transfer library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: URL retrival utility and library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl-dbg
-  visiblename: curl-dbg
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: URL retrival utility and library (debug symbols)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl-dev
-  visiblename: curl-dev
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: URL retrival utility and library (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 8.2.1
-  origversion: 8.2.1-1.amzn2.0.3
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl-doc
-  visiblename: curl-doc
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: URL retrival utility and library (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl-fish-completion
-  visiblename: curl-fish-completion
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: Fish completions for curl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl-static
-  visiblename: curl-static
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: URL retrival utility and library (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: curl-zsh-completion
-  visiblename: curl-zsh-completion
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: Zsh completions for curl
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: curl
-  binname: libcurl
-  visiblename: libcurl
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: The multiprotocol file transfer library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
 - repo: alpine_3_20
   subrepo: main
   srcname: curl
@@ -4522,20 +4385,6 @@
   licenses:
     - curl
   vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: curl
-  binname: libcurl
-  visiblename: libcurl
-  version: 8.14.1
-  origversion: 8.14.1-r2
-  status: outdated
-  summary: The multiprotocol file transfer library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
 - repo: alpine_3_21
   subrepo: main
   srcname: curl
@@ -4559,6 +4408,34 @@
   origversion: 8.14.1-r3
   status: outdated
   summary: URL retrival utility and library (debug symbols)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: curl
+  binname: curl-dev
+  visiblename: curl-dev
+  version: 8.14.1
+  origversion: 8.14.1-r3
+  status: outdated
+  summary: URL retrival utility and library (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - curl
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: curl
+  binname: curl-doc
+  visiblename: curl-doc
+  version: 8.14.1
+  origversion: 8.14.1-r3
+  status: outdated
+  summary: URL retrival utility and library (documentation)
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -4579,34 +4456,6 @@
 - repo: alpine_3_21
   subrepo: main
   srcname: curl
-  binname: curl-dev
-  visiblename: curl-dev
-  version: 8.14.1
-  origversion: 8.14.1-r3
-  status: outdated
-  summary: URL retrival utility and library (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: curl
-  binname: curl-doc
-  visiblename: curl-doc
-  version: 8.14.1
-  origversion: 8.14.1-r3
-  status: outdated
-  summary: URL retrival utility and library (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - curl
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: curl
   binname: curl-fish-completion
   visiblename: curl-fish-completion
   version: 8.14.1
@@ -4730,18 +4579,6 @@
   licenses:
     - curl
   vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.55.1
-  origversion: 7.55.1-12.amzn2.0.6
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Applications/Internet
-  vulnerable: true
 - repo: alpine_3_22
   subrepo: main
   srcname: curl
@@ -4770,6 +4607,18 @@
   licenses:
     - curl
   vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.55.1
+  origversion: 7.55.1-12.amzn2.0.6
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Applications/Internet
+  vulnerable: true
 - repo: alpine_3_22
   subrepo: main
   srcname: curl
@@ -4789,30 +4638,6 @@
   visiblename: curl
   version: 7.55.1
   origversion: 7.55.1-12.amzn2.0.7
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.55.1
-  origversion: 7.55.1-8.amzn2.0.1
-  status: legacy
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Applications/Internet
-  vulnerable: true
-- repo: amazon_2
-  srcname: curl
-  visiblename: curl
-  version: 7.55.1
-  origversion: 7.55.1-9.amzn2.0.1
   status: legacy
   summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   licenses:
@@ -4911,6 +4736,226 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-12.105.amzn1
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-12.93.amzn1
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-12.99.amzn1
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_1
+  subrepo: updates
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-7.91.amzn1
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.55.1
+  origversion: 7.55.1-8.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.55.1
+  origversion: 7.55.1-9.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Applications/Internet
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-11.amzn2.0.2
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-12.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-12.amzn2.0.2
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-12.amzn2.0.4
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-9.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.76.1
+  origversion: 7.76.1-4.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.76.1
+  origversion: 7.76.1-7.amzn2.0.2
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.79.1
+  origversion: 7.79.1-1.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.79.1
+  origversion: 7.79.1-2.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.79.1
+  origversion: 7.79.1-4.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.79.1
+  origversion: 7.79.1-6.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.79.1
+  origversion: 7.79.1-7.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: amazon_2
   srcname: curl
   visiblename: curl
@@ -4932,6 +4977,54 @@
   summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   licenses:
     - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 7.88.1
+  origversion: 7.88.1-1.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 8.0.1
+  origversion: 8.0.1-1.amzn2.0.1
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 8.2.1
+  origversion: 8.2.1-1.amzn2.0.2
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - curl
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: curl
+  visiblename: curl
+  version: 8.2.1
+  origversion: 8.2.1-1.amzn2.0.3
+  status: legacy
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - curl
   categories:
     - Unspecified
   vulnerable: true
@@ -5059,7 +5152,7 @@
   srcname: curl
   visiblename: curl
   version: 8.3.0
-  origversion: 8.3.0-1.amzn2.0.6
+  origversion: 8.3.0-1.amzn2.0.7
   status: outdated
   summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   licenses:
@@ -5071,7 +5164,7 @@
   srcname: curl
   visiblename: curl
   version: 8.3.0
-  origversion: 8.3.0-1.amzn2.0.7
+  origversion: 8.3.0-1.amzn2.0.8
   status: outdated
   summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   licenses:
@@ -5193,15 +5286,15 @@
     - sergiodj@debian.org
   vulnerable: true
 - repo: aur
-  srcname: libcurl3-gnutls
-  binname: libcurl3-gnutls
-  visiblename: libcurl3-gnutls
-  version: 8.21.0
-  origversion: 8.21.0-0
+  srcname: curl-http3
+  binname: curl-http3
+  visiblename: curl-http3
+  version: 8.6.0
+  origversion: 8.6.0-1
   status: outdated
-  summary: An URL retrieval library (linked against gnutls) with libcurl3 versioned symbols
+  summary: An URL retrieval utility and library - compiled with HTTP/3 support - binary is called curl3
   maintainers:
-    - fredericva@aur
+    - netalidev@aur
   licenses:
     - MIT
   vulnerable: true
@@ -5219,15 +5312,15 @@
     - MIT
   vulnerable: true
 - repo: aur
-  srcname: curl-http3
-  binname: curl-http3
-  visiblename: curl-http3
-  version: 8.6.0
-  origversion: 8.6.0-1
+  srcname: libcurl3-gnutls
+  binname: libcurl3-gnutls
+  visiblename: libcurl3-gnutls
+  version: 8.21.0
+  origversion: 8.21.0-0
   status: outdated
-  summary: An URL retrieval utility and library - compiled with HTTP/3 support - binary is called curl3
+  summary: An URL retrieval library (linked against gnutls) with libcurl3 versioned symbols
   maintainers:
-    - netalidev@aur
+    - fredericva@aur
   licenses:
     - MIT
   vulnerable: true
@@ -5386,6 +5479,15 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 7.55.0
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: centos_stream_8
   subrepo: BaseOS
   srcname: curl
@@ -5400,14 +5502,6 @@
     - MIT
   categories:
     - Unspecified
-  vulnerable: true
-- repo: distri
-  srcname: curl-gnutls
-  binname: curl-gnutls
-  visiblename: curl-gnutls
-  version: 7.69.1
-  origversion: 7.69.1-9
-  status: outdated
   vulnerable: true
 - repo: centos_stream_8
   subrepo: BaseOS
@@ -5509,6 +5603,19 @@
   summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   maintainers:
     - builder@centos.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-25.el8_7.2
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   licenses:
     - MIT
   categories:
@@ -5750,6 +5857,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-25.el8_7.3
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: chromebrew
   srcname: musl_curl
   visiblename: musl_curl
@@ -5813,6 +5933,27 @@
     - Debug
   vulnerable: true
 - repo: debian_11
+  subrepo: bullseye/main
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl4
+    - libcurl3-gnutls
+    - libcurl3-nss
+    - libcurl4-openssl-dev
+    - libcurl4-gnutls-dev
+    - libcurl4-nss-dev
+    - libcurl4-doc
+  visiblename: curl
+  version: 7.74.0
+  origversion: 7.74.0-1.3+deb11u13
+  status: outdated
+  maintainers:
+    - ghedo@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: debian_11
   subrepo: bullseye-security/main
   srcname: curl
   binnames:
@@ -5833,8 +5974,8 @@
   categories:
     - libs
   vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: debian_12
+  subrepo: bookworm-security/main
   srcname: curl
   binnames:
     - curl
@@ -5846,11 +5987,13 @@
     - libcurl4-nss-dev
     - libcurl4-doc
   visiblename: curl
-  version: 7.74.0
-  origversion: 7.74.0-1.3+deb11u13
+  version: 7.88.1
+  origversion: 7.88.1-10+deb12u5
   status: outdated
   maintainers:
     - ghedo@debian.org
+    - samueloph@debian.org
+    - sergiodj@debian.org
   categories:
     - libs
   vulnerable: true
@@ -5877,28 +6020,18 @@
   categories:
     - libs
   vulnerable: true
-- repo: debian_12
-  subrepo: bookworm-security/main
+- repo: eurolinux_8
+  subrepo: baseos
   srcname: curl
-  binnames:
-    - curl
-    - libcurl4
-    - libcurl3-gnutls
-    - libcurl3-nss
-    - libcurl4-openssl-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-nss-dev
-    - libcurl4-doc
   visiblename: curl
-  version: 7.88.1
-  origversion: 7.88.1-10+deb12u5
+  version: 7.61.1
+  origversion: 7.61.1-30.el8_8.2
   status: outdated
-  maintainers:
-    - ghedo@debian.org
-    - samueloph@debian.org
-    - sergiodj@debian.org
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
   categories:
-    - libs
+    - Unspecified
   vulnerable: true
 - repo: debian_12_backports
   subrepo: bookworm-backports/main
@@ -5946,28 +6079,6 @@
     - misc
   vulnerable: true
 - repo: debian_13
-  subrepo: trixie-security/main
-  srcname: curl
-  binnames:
-    - curl
-    - libcurl4t64
-    - libcurl3t64-gnutls
-    - libcurl4-openssl-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-doc
-  visiblename: curl
-  version: 8.14.1
-  origversion: 8.14.1-2+deb13u7
-  status: outdated
-  maintainers:
-    - team+curl@tracker.debian.org
-    - charlesmelara@riseup.net
-    - samueloph@debian.org
-    - sergiodj@debian.org
-  categories:
-    - libs
-  vulnerable: true
-- repo: debian_13
   subrepo: trixie/main
   srcname: curl
   binnames:
@@ -5989,20 +6100,30 @@
   categories:
     - libs
   vulnerable: true
-- repo: npackd_unstable
-  srcname: se.haxx.curl.CURL
-  binname: se.haxx.curl.CURL
-  visiblename: cURL
-  version: "7.43"
-  origversion: null
-  status: legacy
-  licenses:
-    - cURL license
-  categories:
-    - Communications
-  vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl4t64
+    - libcurl3t64-gnutls
+    - libcurl4-openssl-dev
+    - libcurl4-gnutls-dev
+    - libcurl4-doc
+  visiblename: curl
+  version: 8.14.1
+  origversion: 8.14.1-2+deb13u7
+  status: outdated
+  maintainers:
+    - team+curl@tracker.debian.org
+    - charlesmelara@riseup.net
+    - samueloph@debian.org
+    - sergiodj@debian.org
+  categories:
+    - libs
+  vulnerable: true
+- repo: debian_13
+  subrepo: trixie-security/main
   srcname: curl
   binnames:
     - curl
@@ -6069,6 +6190,32 @@
   categories:
     - misc
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-30.el8_8.3
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.2
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: deepin_23
   subrepo: main
   srcname: curl
@@ -6090,18 +6237,6 @@
     - sergiodj@debian.org
   categories:
     - web
-  vulnerable: true
-- repo: npackd_stable
-  srcname: se.haxx.curl.CURL
-  binname: se.haxx.curl.CURL
-  visiblename: cURL
-  version: "7.66"
-  origversion: null
-  status: legacy
-  licenses:
-    - cURL license
-  categories:
-    - Communications
   vulnerable: true
 - repo: deepin_25
   subrepo: main
@@ -6143,6 +6278,14 @@
     - ghedo@debian.org
   categories:
     - libs
+  vulnerable: true
+- repo: distri
+  srcname: curl-gnutls
+  binname: curl-gnutls
+  visiblename: curl-gnutls
+  version: 7.69.1
+  origversion: 7.69.1-9
+  status: outdated
   vulnerable: true
 - repo: distri
   srcname: curl
@@ -6288,71 +6431,6 @@
   visiblename: curl
   version: 7.61.1
   origversion: 7.61.1-25.el8_7.1
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-25.el8_7.2
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-25.el8_7.3
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-30.el8_8.2
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-30.el8_8.3
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.2
   status: outdated
   summary: A utility for getting files from remote servers (FTP, HTTP, and others)
   licenses:
@@ -6910,6 +6988,24 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 7.73.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: curl
+  binname: curl
+  visiblename: curl
+  version: 7.55.0
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: fedora_41
   subrepo: release
   srcname: mingw-curl
@@ -6927,36 +7023,6 @@
     - MIT
   categories:
     - Unspecified
-  vulnerable: true
-- repo: fedora_42
-  subrepo: updates
-  srcname: curl
-  binnames:
-    - curl
-    - libcurl
-    - libcurl-devel
-    - libcurl-minimal
-  visiblename: curl
-  version: 8.11.1
-  origversion: 8.11.1-8.fc42
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: se.haxx.curl.CURL
-  binname: se.haxx.curl.CURL
-  visiblename: cURL
-  version: 7.55.1
-  origversion: null
-  status: legacy
-  licenses:
-    - cURL license
-  categories:
-    - Communications
   vulnerable: true
 - repo: fedora_42
   subrepo: release
@@ -6991,6 +7057,24 @@
   summary: MinGW Windows port of curl and libcurl
   licenses:
     - MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_42
+  subrepo: updates
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl
+    - libcurl-devel
+    - libcurl-minimal
+  visiblename: curl
+  version: 8.11.1
+  origversion: 8.11.1-8.fc42
+  status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - curl
   categories:
     - Unspecified
   vulnerable: true
@@ -7184,18 +7268,6 @@
   categories:
     - ftp
   vulnerable: true
-- repo: npackd_stable
-  srcname: se.haxx.curl.CURL
-  binname: se.haxx.curl.CURL
-  visiblename: cURL
-  version: "7.58"
-  origversion: null
-  status: legacy
-  licenses:
-    - cURL license
-  categories:
-    - Communications
-  vulnerable: true
 - repo: glaucus
   srcname: curl
   visiblename: curl
@@ -7259,51 +7331,6 @@
   summary: Library for client-side URL transfers.
   licenses:
     - MIT/X Consortium License
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 7.34.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 7.55.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 7.73.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 7.55.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 7.73.0
-  origversion: null
-  status: legacy
   vulnerable: true
 - repo: ibmi
   srcname: curl
@@ -7464,18 +7491,6 @@
     - MIT
   categories:
     - Development/Other
-  vulnerable: true
-- repo: npackd_stable
-  srcname: se.haxx.curl.CURL
-  binname: se.haxx.curl.CURL
-  visiblename: cURL
-  version: "7.54"
-  origversion: null
-  status: legacy
-  licenses:
-    - cURL license
-  categories:
-    - Communications
   vulnerable: true
 - repo: mx_21_testing
   srcname: curl
@@ -7766,18 +7781,6 @@
   srcname: se.haxx.curl.CURL
   binname: se.haxx.curl.CURL
   visiblename: cURL
-  version: "7.31"
-  origversion: null
-  status: legacy
-  licenses:
-    - cURL license
-  categories:
-    - Communications
-  vulnerable: true
-- repo: npackd_stable
-  srcname: se.haxx.curl.CURL
-  binname: se.haxx.curl.CURL
-  visiblename: cURL
   version: "7.24"
   origversion: null
   status: legacy
@@ -7862,6 +7865,18 @@
   srcname: se.haxx.curl.CURL
   binname: se.haxx.curl.CURL
   visiblename: cURL
+  version: "7.31"
+  origversion: null
+  status: legacy
+  licenses:
+    - cURL license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: se.haxx.curl.CURL
+  binname: se.haxx.curl.CURL
+  visiblename: cURL
   version: "7.33"
   origversion: null
   status: legacy
@@ -7886,6 +7901,42 @@
   srcname: se.haxx.curl.CURL
   binname: se.haxx.curl.CURL
   visiblename: cURL
+  version: "7.54"
+  origversion: null
+  status: legacy
+  licenses:
+    - cURL license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: se.haxx.curl.CURL
+  binname: se.haxx.curl.CURL
+  visiblename: cURL
+  version: 7.55.1
+  origversion: null
+  status: legacy
+  licenses:
+    - cURL license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: se.haxx.curl.CURL
+  binname: se.haxx.curl.CURL
+  visiblename: cURL
+  version: "7.58"
+  origversion: null
+  status: legacy
+  licenses:
+    - cURL license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: se.haxx.curl.CURL
+  binname: se.haxx.curl.CURL
+  visiblename: cURL
   version: 7.65.1
   origversion: null
   status: legacy
@@ -7899,6 +7950,18 @@
   binname: se.haxx.curl.CURL
   visiblename: cURL
   version: 7.65.3
+  origversion: null
+  status: legacy
+  licenses:
+    - cURL license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_stable
+  srcname: se.haxx.curl.CURL
+  binname: se.haxx.curl.CURL
+  visiblename: cURL
+  version: "7.66"
   origversion: null
   status: legacy
   licenses:
@@ -8253,19 +8316,6 @@
     - cURL license
   categories:
     - Communications
-  vulnerable: true
-- repo: ubi_8
-  subrepo: baseos
-  srcname: curl
-  visiblename: curl
-  version: 7.61.1
-  origversion: 7.61.1-34.el8_10.18
-  status: outdated
-  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: npackd_stable64
   srcname: se.haxx.curl.CURL64
@@ -8919,6 +8969,18 @@
   srcname: se.haxx.curl.CURL
   binname: se.haxx.curl.CURL
   visiblename: cURL
+  version: "7.43"
+  origversion: null
+  status: legacy
+  licenses:
+    - cURL license
+  categories:
+    - Communications
+  vulnerable: true
+- repo: npackd_unstable
+  srcname: se.haxx.curl.CURL
+  binname: se.haxx.curl.CURL
+  visiblename: cURL
   version: "7.45"
   origversion: null
   status: outdated
@@ -8938,6 +9000,16 @@
     - MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.37.1
+  origversion: null
+  status: legacy
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
   vulnerable: true
 - repo: openeuler_20_03_lts_sp4
   srcname: curl
@@ -9260,19 +9332,6 @@
   categories:
     - web
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: curl
-  visiblename: curl
-  version: 8.14.1
-  origversion: 8.14.1-150600.4.40.1
-  status: outdated
-  summary: A Tool for Transferring Data from URLs
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe-proposed/main
   srcname: curl
@@ -9493,6 +9552,19 @@
     - Unspecified
   vulnerable: true
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: curl
+  visiblename: curl
+  version: 8.6.0
+  origversion: 8.6.0-150600.2.2
+  status: legacy
+  summary: A Tool for Transferring Data from URLs
+  licenses:
+    - curl
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: curl
   visiblename: curl
@@ -9537,6 +9609,19 @@
   visiblename: curl
   version: 8.14.1
   origversion: 8.14.1-150600.4.37.1
+  status: outdated
+  summary: A Tool for Transferring Data from URLs
+  licenses:
+    - curl
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: curl
+  visiblename: curl
+  version: 8.14.1
+  origversion: 8.14.1-150600.4.40.1
   status: outdated
   summary: A Tool for Transferring Data from URLs
   licenses:
@@ -9628,19 +9713,6 @@
   visiblename: curl
   version: 8.6.0
   origversion: 8.6.0-150600.4.9.2
-  status: legacy
-  summary: A Tool for Transferring Data from URLs
-  licenses:
-    - curl
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: curl
-  visiblename: curl
-  version: 8.6.0
-  origversion: 8.6.0-150600.2.2
   status: legacy
   summary: A Tool for Transferring Data from URLs
   licenses:
@@ -10177,115 +10249,48 @@
   categories:
     - Networking/Other
   vulnerable: true
-- repo: sagemath_stable
-  srcname: curl
-  binname: curl
-  visiblename: curl
-  version: 8.16.0
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.38.0
   origversion: null
-  status: outdated
+  status: legacy
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
   vulnerable: true
-- repo: sagemath_develop
+- repo: tincan
+  subrepo: core
   srcname: curl
-  binname: curl
   visiblename: curl
-  version: 8.16.0
+  version: 8.15.0
   origversion: null
   status: outdated
+  maintainers:
+    - avs.origami@gmail.com
   vulnerable: true
-- repo: slackbuilds
-  srcname: network/curl-quic
-  visiblename: network/curl-quic
-  version: 8.6.0
-  origversion: null
+- repo: ubi_8
+  subrepo: baseos
+  srcname: curl
+  visiblename: curl
+  version: 7.61.1
+  origversion: 7.61.1-34.el8_10.21
   status: outdated
+  summary: A utility for getting files from remote servers (FTP, HTTP, and others)
+  licenses:
+    - MIT
   categories:
-    - network
+    - Unspecified
   vulnerable: true
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: curl
-  visiblename: curl
-  version: 7.81.0
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.39.0
   origversion: null
   status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware_15_0
-  subrepo: patches
-  binname: curl
-  visiblename: curl
-  version: 8.17.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: curl
-  visiblename: curl
-  version: 7.81.0
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: curl
-  visiblename: curl
-  version: 8.17.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: curl
-  visiblename: curl
-  version: 7.81.0
-  origversion: null
-  status: legacy
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: curl
-  visiblename: curl
-  version: 8.17.0
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: curl
-  binnames:
-    - curl
-    - curl-udeb
-    - libcurl3
-    - libcurl3-udeb
-    - libcurl3-gnutls
-    - libcurl3-nss
-    - libcurl4-openssl-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-nss-dev
-    - libcurl3-dbg
-    - libcurl4-doc
-  visiblename: curl
-  version: 7.35.0
-  origversion: 7.35.0-1ubuntu2.20
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ijackson@chiark.greenend.org.uk
-  categories:
-    - web
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty/main
@@ -10312,12 +10317,14 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
   srcname: curl
   binnames:
     - curl
+    - curl-udeb
     - libcurl3
+    - libcurl3-udeb
     - libcurl3-gnutls
     - libcurl3-nss
     - libcurl4-openssl-dev
@@ -10326,8 +10333,8 @@
     - libcurl3-dbg
     - libcurl4-doc
   visiblename: curl
-  version: 7.47.0
-  origversion: 7.47.0-1ubuntu2.19
+  version: 7.35.0
+  origversion: 7.35.0-1ubuntu2.20
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -10351,6 +10358,39 @@
   visiblename: curl
   version: 7.47.0
   origversion: 7.47.0-1ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ijackson@chiark.greenend.org.uk
+  categories:
+    - web
+  vulnerable: true
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.41.0
+  origversion: null
+  status: legacy
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl3
+    - libcurl3-gnutls
+    - libcurl3-nss
+    - libcurl4-openssl-dev
+    - libcurl4-gnutls-dev
+    - libcurl4-nss-dev
+    - libcurl3-dbg
+    - libcurl4-doc
+  visiblename: curl
+  version: 7.47.0
+  origversion: 7.47.0-1ubuntu2.19
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -10439,16 +10479,6 @@
   categories:
     - web
   vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.38.0
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: ubuntu_20_04
   subrepo: focal-updates/main
   srcname: curl
@@ -10517,28 +10547,6 @@
     - web
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: curl
-  binnames:
-    - curl
-    - libcurl4t64
-    - libcurl3t64-gnutls
-    - libcurl4-openssl-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-doc
-  visiblename: curl
-  version: 8.5.0
-  origversion: 8.5.0-2ubuntu10
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - charlesmelara@riseup.net
-    - samueloph@debian.org
-    - sergiodj@debian.org
-  categories:
-    - web
-  vulnerable: true
-- repo: ubuntu_24_04
   subrepo: noble-updates/main
   srcname: curl
   binnames:
@@ -10551,6 +10559,28 @@
   visiblename: curl
   version: 8.5.0
   origversion: 8.5.0-2ubuntu10.16
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - charlesmelara@riseup.net
+    - samueloph@debian.org
+    - sergiodj@debian.org
+  categories:
+    - web
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/main
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl4t64
+    - libcurl3t64-gnutls
+    - libcurl4-openssl-dev
+    - libcurl4-gnutls-dev
+    - libcurl4-doc
+  visiblename: curl
+  version: 8.5.0
+  origversion: 8.5.0-2ubuntu10
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -10582,27 +10612,15 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_25_10
-  subrepo: questing/main
-  srcname: curl
-  binnames:
-    - curl
-    - libcurl4t64
-    - libcurl3t64-gnutls
-    - libcurl4-openssl-dev
-    - libcurl4-gnutls-dev
-    - libcurl4-doc
-  visiblename: curl
-  version: 8.14.1
-  origversion: 8.14.1-2ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - charlesmelara@riseup.net
-    - samueloph@debian.org
-    - sergiodj@debian.org
-  categories:
-    - web
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.53.1
+  origversion: null
+  status: legacy
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
   vulnerable: true
 - repo: ubuntu_25_10
   subrepo: questing-updates/main
@@ -10626,8 +10644,18 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute/main
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.40.0
+  origversion: null
+  status: legacy
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: ubuntu_25_10
+  subrepo: questing/main
   srcname: curl
   binnames:
     - curl
@@ -10637,8 +10665,8 @@
     - libcurl4-gnutls-dev
     - libcurl4-doc
   visiblename: curl
-  version: 8.18.0
-  origversion: 8.18.0-1ubuntu2
+  version: 8.14.1
+  origversion: 8.14.1-2ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -10670,8 +10698,8 @@
   categories:
     - web
   vulnerable: true
-- repo: ubuntu_26_10
-  subrepo: stonking-updates/main
+- repo: ubuntu_26_04
+  subrepo: resolute/main
   srcname: curl
   binnames:
     - curl
@@ -10681,8 +10709,8 @@
     - libcurl4-gnutls-dev
     - libcurl4-doc
   visiblename: curl
-  version: 8.20.0
-  origversion: 8.20.0-2ubuntu11.1
+  version: 8.18.0
+  origversion: 8.18.0-1ubuntu2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -10713,6 +10741,38 @@
     - sergiodj@debian.org
   categories:
     - web
+  vulnerable: true
+- repo: ubuntu_26_10
+  subrepo: stonking-updates/main
+  srcname: curl
+  binnames:
+    - curl
+    - libcurl4t64
+    - libcurl3t64-gnutls
+    - libcurl4-openssl-dev
+    - libcurl4-gnutls-dev
+    - libcurl4-doc
+  visiblename: curl
+  version: 8.20.0
+  origversion: 8.20.0-2ubuntu11.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - charlesmelara@riseup.net
+    - samueloph@debian.org
+    - sergiodj@debian.org
+  categories:
+    - web
+  vulnerable: true
+- repo: xrepo
+  srcname: libcurl
+  visiblename: libcurl
+  version: 7.42.1
+  origversion: null
+  status: legacy
+  summary: The multiprotocol file transfer library.
+  licenses:
+    - MIT
   vulnerable: true
 - repo: wikidata
   srcname: Q30499112
@@ -10778,56 +10838,6 @@
   srcname: libcurl
   visiblename: libcurl
   version: 7.36.0
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.37.1
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.39.0
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.40.0
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.41.0
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.42.1
   origversion: null
   status: legacy
   summary: The multiprotocol file transfer library.
@@ -10928,16 +10938,6 @@
   srcname: libcurl
   visiblename: libcurl
   version: 7.52.1
-  origversion: null
-  status: legacy
-  summary: The multiprotocol file transfer library.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: libcurl
-  visiblename: libcurl
-  version: 7.53.1
   origversion: null
   status: legacy
   summary: The multiprotocol file transfer library.
