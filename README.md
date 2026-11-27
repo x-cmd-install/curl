@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 43,685 · **Forks**: 7,509 · **Open issues**: 5,765 · **Contributors**: 1,310
+- **Stars**: 43,699 · **Forks**: 7,521 · **Open issues**: 5,768 · **Contributors**: 1,310
 
 ## Totals (cumulative)
 
-- **Releases**: 99 · **Merged PRs**: 222 · **Open PRs**: 53 · **Closed issues**: 5740 · **Open issues**: 25 · **Commits**: 40616
+- **Releases**: 99 · **Merged PRs**: 222 · **Open PRs**: 59 · **Closed issues**: 5742 · **Open issues**: 26 · **Commits**: 40616
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 2 | 30 | 116 | 17 | 280 |
-| last60d | 2026-09-27 | 1 | 4 | 43 | 155 | 20 | 647 |
-| 90d | 2026-08-28 | 2 | 11 | 49 | 187 | 23 | 973 |
-| last180d | 2026-05-30 | 3 | 15 | 51 | 278 | 25 | 1703 |
-| 360d | 2025-12-01 | 6 | 22 | 53 | 463 | 25 | 3356 |
-| last720d | 2024-12-06 | 15 | 35 | 53 | 943 | 25 | 6812 |
+| 30d | 2026-10-28 | 0 | 2 | 36 | 113 | 18 | 280 |
+| last60d | 2026-09-28 | 1 | 4 | 49 | 155 | 21 | 647 |
+| 90d | 2026-08-29 | 2 | 11 | 55 | 187 | 24 | 973 |
+| last180d | 2026-05-31 | 3 | 15 | 57 | 280 | 26 | 1703 |
+| 360d | 2025-12-02 | 6 | 22 | 59 | 463 | 26 | 3356 |
+| last720d | 2024-12-07 | 15 | 35 | 59 | 945 | 26 | 6809 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for curl lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:41:52Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:51:35Z._
